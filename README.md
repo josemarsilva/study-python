@@ -9,7 +9,7 @@ Este repositório contém os artefatos do estudo da linguagem de programação P
 
 ### 2.4. Diagrama de Mapa Mental (Mind Map Diagram)
 
-![MindMapDiagram-Context.png](./doc/uml-diagrams/MindMapDiagram-Context.png) 
+![MindMapDiagram-Context.png](./doc/mindmaps/MindMapDiagram-Context.png) 
 
 
 ### 2.5. Estratégia de Branches (Branch Strategy Workflow)
