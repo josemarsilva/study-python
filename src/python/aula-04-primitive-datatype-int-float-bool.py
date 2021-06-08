@@ -1,4 +1,7 @@
-# aula4-primitive-datatype-int-float-bool.py
+#
+# filename   : aula-04-primitive-datatype-int-float-bool.py
+# Description: Primitive int float and boolean datatype
+#
 
 # str   - string  - textos 'assim' ou "assim"
 # int   - inteiro - 1234567 ou 0 ou -1 ou 1000 ou -1000

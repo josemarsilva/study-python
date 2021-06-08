@@ -1,4 +1,7 @@
-# aula8-user-input-casting-datatype.py
+#
+# filename   : aula-08-user-input-casting-datatype.py
+# Description: User input casting datatype
+#
 
 nome = input("Qual o seu nome? ")
 idade = input("Qual a sua idade? ")

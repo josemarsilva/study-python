@@ -53,9 +53,18 @@ Sugestão de [estratégia de branches e workflow](https://github.com/josemarsilv
 
 
 
-### 3.4. Guia de Demonstração e Teste
+### 3.4. Guia de Estudo
 
-* n/a
+* [aula-01-helloworld-remarks.py](./src/python/aula-01-helloworld-remarks.py)
+* [aula-02-print-separator-end.py](./src/python/aula-02-print-separator-end.py)
+* [aula-03-primitive-datatype-string.py](./src/python/aula-03-primitive-datatype-string.py)
+* [aula-04-primitive-datatype-int-float-bool.py](./src/python/aula-04-primitive-datatype-int-float-bool.py)
+* [aula-05-arithmetics-operator.py](./src/python/aula-05-arithmetics-operator.py)
+* [aula-06-variables.py](./src/python/aula-06-variables.py)
+* [aula-07-formating-string.py](./src/python/aula-07-formating-string.py)
+* [aula-08-user-input-casting-datatype.py](./src/python/aula-08-user-input-casting-datatype.py)
+* [aula-09-if-elif-else.py](./src/python/aula-09-if-elif-else.py)
+* [aula-10-relational-operator.py](./src/python/aula-10-relational-operator.py)
 
 
 ### 3.5. Patterns, Standard, Conventions and Best Practices
@@ -65,3 +74,4 @@ Sugestão de [estratégia de branches e workflow](https://github.com/josemarsilv
 ## I - Referências
 
 * https://www.udemy.com/course/python-3-do-zero-ao-avancado
+* https://www.youtube.com/watch?v=Gojqw9BQ5qY

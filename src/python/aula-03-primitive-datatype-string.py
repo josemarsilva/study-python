@@ -1,4 +1,7 @@
-# aula3-primitive-datatype-string.py
+#
+# filename   : aula-03-primitive-datatype-string.py
+# Description: Primitive string datatype
+#
 
 print("algum string (str)")
 print('algum string (str)')

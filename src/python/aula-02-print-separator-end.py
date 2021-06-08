@@ -1,4 +1,7 @@
-# aula2-print-separator-end.py
+#
+# filename   : aula-02-print-separator-end.py
+# Description: How to print separator
+#
 
 print('Josemar', 'Silva', 'Outra coisa')
 print('Josemar', 'Silva', sep='-', end='###')

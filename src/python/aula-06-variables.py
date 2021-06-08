@@ -1,4 +1,8 @@
-# aula6-variables.py
+#
+# filename   : aula-06-variables.py
+# Description: Variables
+#
+
 
 nome = "Josemar"      # str
 idade = 52            # int

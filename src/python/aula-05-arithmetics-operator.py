@@ -1,4 +1,8 @@
-# aula5-arithmetics-operator.py
+#
+# filename   : aula-05-arithmetics-operator.py
+# Description: Arithmetics operators +, -, *, /, //, %
+#
+
 
 print(10 * 10)   # multiplicação
 print(10 + 10)   # adição

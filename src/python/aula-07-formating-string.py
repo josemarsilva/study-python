@@ -1,4 +1,7 @@
-# aula7-formating-string.py
+#
+# filename   : aula-07-formating-string.py
+# Description: Formatting string
+#
 
 nome = "Josemar"      # str
 idade = 52            # int
