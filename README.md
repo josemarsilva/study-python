@@ -55,6 +55,8 @@ Sugestão de [estratégia de branches e workflow](https://github.com/josemarsilv
 
 ### 3.4. Guia de Estudo
 
+#### 3.4.1. Básico da linguagem Python
+
 * [aula-01-helloworld-remarks.py](./src/python/aula-01-helloworld-remarks.py)
 * [aula-02-print-separator-end.py](./src/python/aula-02-print-separator-end.py)
 * [aula-03-primitive-datatype-string.py](./src/python/aula-03-primitive-datatype-string.py)
