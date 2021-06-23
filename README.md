@@ -26,13 +26,15 @@ Sugestão de [estratégia de branches e workflow](https://github.com/josemarsilv
 #### a. Tecnologias e ferramentas
 
 * Python 3 - Windows ou Linux
-* venv
 
 
 #### b. Ferramental de apoio
 
 * Ferramenta: [Draw.IO](https://app.diagrams.net/) (_apoio_: necessário para editar os diagramas UML)
 * Pycharm community (_produtividade_: IDE facilita programação)
+* venv - administrador de múltiplos ambientes Python para evitar bagunçar as bibliotecas
+* [Jupyter Notebook - ambiente de programação e documentação Python na nuvem](https://jupyter.org/try)
+* [Colab Research Google - ambiente de programação Python na nuvem](https://colab.research.google.com/)
 
 
 ### 3.2. Guia do Desenvolvedor e Administrador
@@ -43,19 +45,25 @@ Sugestão de [estratégia de branches e workflow](https://github.com/josemarsilv
 
 ### 3.3. Guia de Implantação, Configuração e Instalação
 
-#### 3.1. Download and Install Python for Windows
+#### a. Download and Install Python for Windows
 
 * https://www.python.org/downloads/
 
-#### 3.1. Download and Install Pycharm Community
+#### b. Download and Install Pycharm Community
 
 * https://www.jetbrains.com/pycharm/download/#section=linux
 
 
+#### c. Uso gratuito do Google Colabs PaaS (Platform as a Service)
 
-### 3.4. Guia de Estudo
+* https://colab.research.google.com/
 
-#### 3.4.1. Básico da linguagem Python
+
+### 3.5. Guia de Estudo
+
+* n/a
+
+#### 3.5.1. Básico da linguagem Python
 
 * [aula-01-helloworld-remarks.py](./src/python/aula-01-helloworld-remarks.py)
 * [aula-02-print-separator-end.py](./src/python/aula-02-print-separator-end.py)
@@ -67,13 +75,13 @@ Sugestão de [estratégia de branches e workflow](https://github.com/josemarsilv
 * [aula-08-user-input-casting-datatype.py](./src/python/aula-08-user-input-casting-datatype.py)
 * [aula-09-if-elif-else.py](./src/python/aula-09-if-elif-else.py)
 * [aula-10-relational-operator.py](./src/python/aula-10-relational-operator.py)
-
-
-### 3.5. Patterns, Standard, Conventions and Best Practices
+* [aula-11-logical-operator.py](./src/python/aula-11-logical-operator.py)
+* [aula-12-string-functions.py](./src/python/aula-12-string-functions.py)
 
 * n/a
 
 ## I - Referências
 
-* https://www.udemy.com/course/python-3-do-zero-ao-avancado
-* https://www.youtube.com/watch?v=Gojqw9BQ5qY
+* [Udemmy - Python 3](https://www.udemy.com/course/python-3-do-zero-ao-avancado)
+* [Youtube - Felipe Deschamps](https://www.youtube.com/watch?v=Gojqw9BQ5qY)
+* [Python 3 - Documentation](https://docs.python.org/3/library/index.html)
