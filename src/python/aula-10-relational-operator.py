@@ -1,6 +1,7 @@
 #
 # filename   : aula-10-relational-operator.py
 # Description: Relational operator: == <> >= <= !=
+# Docs       : https://docs.python.org/3/contents.html
 #
 
 # Operadores relacionais:

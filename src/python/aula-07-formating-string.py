@@ -1,6 +1,7 @@
 #
 # filename   : aula-07-formating-string.py
 # Description: Formatting string
+# Docs       : https://docs.python.org/3/contents.html
 #
 
 nome = "Josemar"      # str

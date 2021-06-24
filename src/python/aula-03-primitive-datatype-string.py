@@ -1,6 +1,7 @@
 #
 # filename   : aula-03-primitive-datatype-string.py
 # Description: Primitive string datatype
+# Docs       : https://docs.python.org/3/contents.html
 #
 
 print("algum string (str)")

@@ -1,8 +1,8 @@
 #
 # filename   : aula-06-variables.py
 # Description: Variables
+# Docs       : https://docs.python.org/3/contents.html
 #
-
 
 nome = "Josemar"      # str
 idade = 52            # int

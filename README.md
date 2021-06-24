@@ -77,11 +77,20 @@ Sugestão de [estratégia de branches e workflow](https://github.com/josemarsilv
 * [aula-10-relational-operator.py](./src/python/aula-10-relational-operator.py)
 * [aula-11-logical-operator.py](./src/python/aula-11-logical-operator.py)
 * [aula-12-string-functions.py](./src/python/aula-12-string-functions.py)
+* [aula-13-built-in-functions-documentation.py](./src/python/aula-13-built-in-functions-documentation.py)
+* [aula-14-try-catch.py](./src/python/aula-14-try-catch.py)
+* [aula-15-pass-ellipsis-placeholders.py](./src/python/aula-15-pass-ellipsis-placeholders.py)
+* [aula-16-formatting-values.py](./src/python/aula-16-formatting-values.py)
+* [aula-17-string-index-slice.py](./src/python/aula-17-string-index-slice.py)
+* [aula-18-while-continue-for.py](./src/python/aula-18-while-continue-for.py)
+* [aula-19-string-iterator.py](./src/python/aula-19-string-iterator.py)
+* [aula-20-for-iterator-range.py](./src/python/aula-20-for-iterator-range.py)
+* [aula-21-lists.py](./src/python/aula-21-lists.py)
 
-* n/a
 
 ## I - Referências
 
 * [Udemmy - Python 3](https://www.udemy.com/course/python-3-do-zero-ao-avancado)
 * [Youtube - Felipe Deschamps](https://www.youtube.com/watch?v=Gojqw9BQ5qY)
 * [Python 3 - Documentation](https://docs.python.org/3/library/index.html)
+* [Python Tutorial - W3School (Online)](https://www.w3schools.com/python/default.asp)

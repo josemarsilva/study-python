@@ -1,6 +1,7 @@
 #
 # filename   : aula-04-primitive-datatype-int-float-bool.py
 # Description: Primitive int float and boolean datatype
+# Docs       : https://docs.python.org/3/contents.html
 #
 
 # str   - string  - textos 'assim' ou "assim"

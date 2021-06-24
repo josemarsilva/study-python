@@ -1,6 +1,7 @@
 #
 # filename   : aula-12-string-functions.py
 # Description: String functions
+# Docs       : https://docs.python.org/3/contents.html
 #
 
 str_1 = "Ola"

@@ -1,6 +1,7 @@
 #
 # filename   : aula-11-logical-operator.py
 # Description: Logical operators: and, or, not, in, not in
+# Docs       : https://docs.python.org/3/contents.html
 #
 
 a = 2
