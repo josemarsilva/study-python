@@ -85,7 +85,7 @@ Sugestão de [estratégia de branches e workflow](https://github.com/josemarsilv
 * [aula-18-while-continue-for.py](./src/python/aula-18-while-continue-for.py)
 * [aula-19-string-iterator.py](./src/python/aula-19-string-iterator.py)
 * [aula-20-for-iterator-range.py](./src/python/aula-20-for-iterator-range.py)
-* [aula-21-lists.py](./src/python/aula-21-lists.py)
+* [aula-21-lists-index-slice-append-insert-del-clear-extend.py](src/python/aula-21-lists-index-slice-append-insert-del-clear-extend.py)
 
 
 ## I - Referências
