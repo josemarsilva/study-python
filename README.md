@@ -86,7 +86,10 @@ Sugestão de [estratégia de branches e workflow](https://github.com/josemarsilv
 * [aula-19-string-iterator.py](./src/python/aula-19-string-iterator.py)
 * [aula-20-for-iterator-range.py](./src/python/aula-20-for-iterator-range.py)
 * [aula-21-lists-index-slice-append-insert-del-clear-extend.py](src/python/aula-21-lists-index-slice-append-insert-del-clear-extend.py)
-
+* [aula-22-list-for-continue-if-else.py](src/python/aula-22-list-for-continue-if-else.py)
+* [aula-23-split-join-enumerate-tuples-unpackage.py](src/python/aula-23-split-join-enumerate-tuples-unpackage.py)
+* [aula-24-list-of-list-tuples-enumerate.py](src/python/aula-24-list-of-list-tuples-enumerate.py)
+* [aula-25-lists-unpacking.py](src/python/aula-25-lists-unpacking.py)
 
 ## I - Referências
 

@@ -4,15 +4,33 @@
 # Docs       : https://docs.python.org/3/howto/regex.html#splitting-strings
 #
 
+# 1. Split e Join
+from operator import index
+
 texto = 'Capitu traia mesmo ou eram os olhos de Bentinho?'
 lista_palavras = texto.split(' ')
-lista_numeros_impares = [ 'um',  'tres', 'cinco', 'sete', 'nove']
-lista_numeros_pares = [  'dois', 'quatro', 'seis', 'oito', 'dez']
-lista_numeros = ','.join(lista_numeros_impares + lista_numeros_pares)
+lista_numeros = [ 'um',  'dois', 'tres', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove', 'dez']
+lista_numeros_joinned = ','.join(lista_numeros)
 
-print(f'Dado o texto: {texto}')             # Capitu traia mesmo ou eram os olhos de Bentinho?
-print(f'  - palavras: {lista_palavras}')    # ['Capitu', 'traia', 'mesmo', 'ou', 'eram', 'os', 'olhos', 'de', 'Bentinho?']
-print(f'  - numeros : {lista_numeros}')     # um,tres,cinco,sete,nove,dois,quatro,seis,oito,dez
+print(f'texto                : {texto}')             # Capitu traia mesmo ou eram os olhos de Bentinho?
+print(f'lista_palavras       : {lista_palavras}')    # ['Capitu', 'traia', 'mesmo', 'ou', 'eram', 'os', 'olhos', 'de', 'Bentinho?']
+print(f'lista_numeros        : {lista_numeros}')     # ['um', 'dois', 'tres', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove', 'dez']
+print(f'lista_numeros_joinned: {lista_numeros_joinned}')
+
+# 2. Enumerate
+
+for indice, valor in enumerate(lista_numeros):
+    print(f'indice: {indice}, valor: {valor}')  # indice: 0, valor: um, indice: 1, valor: dois, ...
+
+
+# 3. Unpackage
 
 lista_simples = [ 'um', 'dois', 'tres', 'quatro', 'cinco']
+e1, e2, e3, e4, e5 = lista_simples
 
+print('lista_simples: ', lista_simples) # lista_simples:  ['um', 'dois', 'tres', 'quatro', 'cinco']
+print('  e1: ', e1)                     # e1: um
+print('  e2: ', e2)                     # e2: dois
+print('  e3: ', e3)                     # e3: tres
+print('  e4: ', e4)                     # e4: quatro
+print('  e5: ', e5)                     # e5: cinco
