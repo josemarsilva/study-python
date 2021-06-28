@@ -65,7 +65,7 @@ Sugestão de [estratégia de branches e workflow](https://github.com/josemarsilv
 
 #### 3.5.1. Básico da linguagem Python
 
-#### Variables, datatypes and operators
+##### Variables, datatypes and operators
 
 * [lab-01-helloworld-remarks.py](./src/python/lab-01-helloworld-remarks.py)
 * [lab-03-primitive-datatype-string.py](./src/python/lab-03-primitive-datatype-string.py)
@@ -73,46 +73,46 @@ Sugestão de [estratégia de branches e workflow](https://github.com/josemarsilv
 * [lab-05-arithmetics-operator.py](./src/python/lab-05-arithmetics-operator.py)
 * [lab-06-variables.py](./src/python/lab-06-variables.py)
 
-#### User input, print, format and casting
+##### User input, print, format and casting
 
 * [lab-02-print-separator-end.py](./src/python/lab-02-print-separator-end.py)
 * [lab-07-formating-string.py](./src/python/lab-07-formating-string.py)
 * [lab-08-user-input-casting-datatype.py](./src/python/lab-08-user-input-casting-datatype.py)
 * [lab-16-formatting-values.py](./src/python/lab-16-formatting-values.py)
 
-#### if, elif, else and operators
+##### if, elif, else and operators
 
 * [lab-09-if-elif-else.py](./src/python/lab-09-if-elif-else.py)
 * [lab-10-relational-operator.py](./src/python/lab-10-relational-operator.py)
 * [lab-11-logical-operator.py](./src/python/lab-11-logical-operator.py)
 * [lab-12-string-functions.py](./src/python/lab-12-string-functions.py)
 
-#### built-in
+##### built-in
 
 * [lab-13-built-in-functions-documentation.py](./src/python/lab-13-built-in-functions-documentation.py)
 
-#### try ... except
+##### try ... except
 
 * [lab-14-try-except.py](./src/python/lab-14-try-except.py)
 
-#### pass, ellipsis and placeholders
+##### pass, ellipsis and placeholders
 
 * [lab-15-pass-ellipsis-placeholders.py](./src/python/lab-15-pass-ellipsis-placeholders.py)
 
-#### while, for, continue and break
+##### while, for, continue and break
 
 * [lab-18-while-continue-for.py](./src/python/lab-18-while-continue-for.py)
 
-#### String manipulation
+##### String manipulation
 
 * [lab-17-string-index-slice.py](./src/python/lab-17-string-index-slice.py)
 * [lab-19-string-iterator.py](./src/python/lab-19-string-iterator.py)
 
-#### Iterators
+##### Iterators
 
 * [lab-20-for-iterator-range.py](./src/python/lab-20-for-iterator-range.py)
 
-#### List and list functions
+##### List and list functions
 
 * [lab-21-lists-index-slice-append-insert-del-clear-extend.py](src/python/lab-21-lists-index-slice-append-insert-del-clear-extend.py)
 * [lab-22-list-for-continue-if-else.py](src/python/lab-22-list-for-continue-if-else.py)
@@ -123,7 +123,7 @@ Sugestão de [estratégia de branches e workflow](https://github.com/josemarsilv
 * [lab-27-conditional-expression-ternary-operation.py](src/python/lab-27-conditional-expression-ternary-operation.py)
 
 
-#### Intermediário da linguagem Python
+#### 3.5.2. Básico da linguagem Python
 
 * [lab-101-def-function-create-use-arguments-default-return.py](src/python/lab-101-def-function-create-use-arguments-default-return.py)
 * [lab-102-def-return-no-return-function-return.py](src/python/lab-102-def-return-no-return-function-return.py)
