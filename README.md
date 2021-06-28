@@ -96,9 +96,39 @@ Sugestão de [estratégia de branches e workflow](https://github.com/josemarsilv
 
 #### 3.5.2. Intermediário da linguagem Python
 
-#### 3.5.2.1. Functions `def`
+#### 3.5.2.1. def (functions)
 
+* [aula-101-def-function-create-use-arguments-default-return.py](src/python/aula-101-def-function-create-use-arguments-default-return.py)
+* [aula-102-def-return-no-return-function-return.py](src/python/aula-102-def-return-no-return-function-return.py)
+* [aula-103-def-return-list-tuple.py](src/python/aula-103-def-return-list-tuple.py)
 
+#### 3.5.2.2. args & kwargs
+
+* [aula-104-def-functions-args-kwargs.py](src/python/aula-104-def-functions-args-kwargs.py)
+
+#### 3.5.2.3. variable scope
+
+* [aula-105-variable-scopes-global-function-local.py](src/python/aula-105-variable-scopes-global-function-local.py)
+
+#### 3.5.2.4. lambda expression
+
+* [aula-106-lambda-expression-anonymous-function.py](src/python/aula-106-lambda-expression-anonymous-function.py)
+
+#### 3.5.2.5. tuple
+
+* [aula-107-tuple-vs-list.py](src/python/aula-107-tuple-vs-list.py)
+
+#### 3.5.2.6. dictionary
+
+* [aula-108-dictionary.py](src/python/aula-108-dictionary.py)
+
+#### 3.5.2.7. set
+
+* [aula-109-set-add-update-clear-discard-union-intersection-difference.py](src/python/aula-109-set-add-update-clear-discard-union-intersection-difference.py)
+
+#### 3.5.2.8. list comprehension
+
+* [aula-110-list-comprehension.py](src/python/aula-110-list-comprehension.py)
 
 ## I - Referências
 
