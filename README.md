@@ -2,7 +2,7 @@
 
 ## 1. Introdução
 
-Este repositório contém os artefatos do estudo da linguagem de programação Python 3 **study-python**.
+Este repositório contém os artefatos do laboratório de estudo da linguagem de programação Python 3 **study-python**.
 
 
 ## 2. Documentação
@@ -26,7 +26,7 @@ Sugestão de [estratégia de branches e workflow](https://github.com/josemarsilv
 #### a. Tecnologias e ferramentas
 
 * Python 3 - Windows ou Linux
-
+* [Google Colab](https://colab.research.google.com/)
 
 #### b. Ferramental de apoio
 
@@ -65,47 +65,77 @@ Sugestão de [estratégia de branches e workflow](https://github.com/josemarsilv
 
 #### 3.5.1. Básico da linguagem Python
 
-* [aula-01-helloworld-remarks.py](./src/python/aula-01-helloworld-remarks.py)
-* [aula-02-print-separator-end.py](./src/python/aula-02-print-separator-end.py)
-* [aula-03-primitive-datatype-string.py](./src/python/aula-03-primitive-datatype-string.py)
-* [aula-04-primitive-datatype-int-float-bool.py](./src/python/aula-04-primitive-datatype-int-float-bool.py)
-* [aula-05-arithmetics-operator.py](./src/python/aula-05-arithmetics-operator.py)
-* [aula-06-variables.py](./src/python/aula-06-variables.py)
-* [aula-07-formating-string.py](./src/python/aula-07-formating-string.py)
-* [aula-08-user-input-casting-datatype.py](./src/python/aula-08-user-input-casting-datatype.py)
-* [aula-09-if-elif-else.py](./src/python/aula-09-if-elif-else.py)
-* [aula-10-relational-operator.py](./src/python/aula-10-relational-operator.py)
-* [aula-11-logical-operator.py](./src/python/aula-11-logical-operator.py)
-* [aula-12-string-functions.py](./src/python/aula-12-string-functions.py)
-* [aula-13-built-in-functions-documentation.py](./src/python/aula-13-built-in-functions-documentation.py)
-* [aula-14-try-except.py](./src/python/aula-14-try-except.py)
-* [aula-15-pass-ellipsis-placeholders.py](./src/python/aula-15-pass-ellipsis-placeholders.py)
-* [aula-16-formatting-values.py](./src/python/aula-16-formatting-values.py)
-* [aula-17-string-index-slice.py](./src/python/aula-17-string-index-slice.py)
-* [aula-18-while-continue-for.py](./src/python/aula-18-while-continue-for.py)
-* [aula-19-string-iterator.py](./src/python/aula-19-string-iterator.py)
-* [aula-20-for-iterator-range.py](./src/python/aula-20-for-iterator-range.py)
-* [aula-21-lists-index-slice-append-insert-del-clear-extend.py](src/python/aula-21-lists-index-slice-append-insert-del-clear-extend.py)
-* [aula-22-list-for-continue-if-else.py](src/python/aula-22-list-for-continue-if-else.py)
-* [aula-23-split-join-enumerate-tuples-unpackage.py](src/python/aula-23-split-join-enumerate-tuples-unpackage.py)
-* [aula-24-list-of-list-tuples-enumerate.py](src/python/aula-24-list-of-list-tuples-enumerate.py)
-* [aula-25-lists-unpacking.py](src/python/aula-25-lists-unpacking.py)
-* [aula-26-swap-value-between-2-variables.py](src/python/aula-26-swap-value-between-2-variables.py)
-* [aula-27-conditional-expression-ternary-operation.py](src/python/aula-27-conditional-expression-ternary-operation.py)
+#### Variables, datatypes and operators
+
+* [lab-01-helloworld-remarks.py](./src/python/lab-01-helloworld-remarks.py)
+* [lab-03-primitive-datatype-string.py](./src/python/lab-03-primitive-datatype-string.py)
+* [lab-04-primitive-datatype-int-float-bool.py](./src/python/lab-04-primitive-datatype-int-float-bool.py)
+* [lab-05-arithmetics-operator.py](./src/python/lab-05-arithmetics-operator.py)
+* [lab-06-variables.py](./src/python/lab-06-variables.py)
+
+#### User input, print, format and casting
+
+* [lab-02-print-separator-end.py](./src/python/lab-02-print-separator-end.py)
+* [lab-07-formating-string.py](./src/python/lab-07-formating-string.py)
+* [lab-08-user-input-casting-datatype.py](./src/python/lab-08-user-input-casting-datatype.py)
+* [lab-16-formatting-values.py](./src/python/lab-16-formatting-values.py)
+
+#### if, elif, else and operators
+
+* [lab-09-if-elif-else.py](./src/python/lab-09-if-elif-else.py)
+* [lab-10-relational-operator.py](./src/python/lab-10-relational-operator.py)
+* [lab-11-logical-operator.py](./src/python/lab-11-logical-operator.py)
+* [lab-12-string-functions.py](./src/python/lab-12-string-functions.py)
+
+#### built-in
+
+* [lab-13-built-in-functions-documentation.py](./src/python/lab-13-built-in-functions-documentation.py)
+
+#### try ... except
+
+* [lab-14-try-except.py](./src/python/lab-14-try-except.py)
+
+#### pass, ellipsis and placeholders
+
+* [lab-15-pass-ellipsis-placeholders.py](./src/python/lab-15-pass-ellipsis-placeholders.py)
+
+#### while, for, continue and break
+
+* [lab-18-while-continue-for.py](./src/python/lab-18-while-continue-for.py)
+
+#### String manipulation
+
+* [lab-17-string-index-slice.py](./src/python/lab-17-string-index-slice.py)
+* [lab-19-string-iterator.py](./src/python/lab-19-string-iterator.py)
+
+#### Iterators
+
+* [lab-20-for-iterator-range.py](./src/python/lab-20-for-iterator-range.py)
+
+#### List and list functions
+
+* [lab-21-lists-index-slice-append-insert-del-clear-extend.py](src/python/lab-21-lists-index-slice-append-insert-del-clear-extend.py)
+* [lab-22-list-for-continue-if-else.py](src/python/lab-22-list-for-continue-if-else.py)
+* [lab-23-split-join-enumerate-tuples-unpackage.py](src/python/lab-23-split-join-enumerate-tuples-unpackage.py)
+* [lab-24-list-of-list-tuples-enumerate.py](src/python/lab-24-list-of-list-tuples-enumerate.py)
+* [lab-25-lists-unpacking.py](src/python/lab-25-lists-unpacking.py)
+* [lab-26-swap-value-between-2-variables.py](src/python/lab-26-swap-value-between-2-variables.py)
+* [lab-27-conditional-expression-ternary-operation.py](src/python/lab-27-conditional-expression-ternary-operation.py)
 
 
-#### 3.5.2. Intermediário da linguagem Python
+#### Intermediário da linguagem Python
 
-* [aula-101-def-function-create-use-arguments-default-return.py](src/python/aula-101-def-function-create-use-arguments-default-return.py)
-* [aula-102-def-return-no-return-function-return.py](src/python/aula-102-def-return-no-return-function-return.py)
-* [aula-103-def-return-list-tuple.py](src/python/aula-103-def-return-list-tuple.py)
-* [aula-104-def-functions-args-kwargs.py](src/python/aula-104-def-functions-args-kwargs.py)
-* [aula-105-variable-scopes-global-function-local.py](src/python/aula-105-variable-scopes-global-function-local.py)
-* [aula-106-lambda-expression-anonymous-function.py](src/python/aula-106-lambda-expression-anonymous-function.py)
-* [aula-107-tuple-vs-list.py](src/python/aula-107-tuple-vs-list.py)
-* [aula-108-dictionary.py](src/python/aula-108-dictionary.py)
-* [aula-109-set-add-update-clear-discard-union-intersection-difference.py](src/python/aula-109-set-add-update-clear-discard-union-intersection-difference.py)
-* [aula-110-list-comprehension.py](src/python/aula-110-list-comprehension.py)
+* [lab-101-def-function-create-use-arguments-default-return.py](src/python/lab-101-def-function-create-use-arguments-default-return.py)
+* [lab-102-def-return-no-return-function-return.py](src/python/lab-102-def-return-no-return-function-return.py)
+* [lab-103-def-return-list-tuple.py](src/python/lab-103-def-return-list-tuple.py)
+* [lab-104-def-functions-args-kwargs.py](src/python/lab-104-def-functions-args-kwargs.py)
+* [lab-105-variable-scopes-global-function-local.py](src/python/lab-105-variable-scopes-global-function-local.py)
+* [lab-106-lambda-expression-anonymous-function.py](src/python/lab-106-lambda-expression-anonymous-function.py)
+* [lab-107-tuple-vs-list.py](src/python/lab-107-tuple-vs-list.py)
+* [lab-108-dictionary.py](src/python/lab-108-dictionary.py)
+* [lab-109-set-add-update-clear-discard-union-intersection-difference.py](src/python/lab-109-set-add-update-clear-discard-union-intersection-difference.py)
+* [lab-110-list-comprehension.py](src/python/lab-110-list-comprehension.py)
+
 
 ## I - Referências
 
