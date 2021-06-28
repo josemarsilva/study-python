@@ -78,7 +78,7 @@ Sugestão de [estratégia de branches e workflow](https://github.com/josemarsilv
 * [aula-11-logical-operator.py](./src/python/aula-11-logical-operator.py)
 * [aula-12-string-functions.py](./src/python/aula-12-string-functions.py)
 * [aula-13-built-in-functions-documentation.py](./src/python/aula-13-built-in-functions-documentation.py)
-* [aula-14-try-except.py](./src/python/aula-14-try-catch.py)
+* [aula-14-try-except.py](./src/python/aula-14-try-except.py)
 * [aula-15-pass-ellipsis-placeholders.py](./src/python/aula-15-pass-ellipsis-placeholders.py)
 * [aula-16-formatting-values.py](./src/python/aula-16-formatting-values.py)
 * [aula-17-string-index-slice.py](./src/python/aula-17-string-index-slice.py)
