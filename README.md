@@ -90,6 +90,15 @@ Sugestão de [estratégia de branches e workflow](https://github.com/josemarsilv
 * [aula-23-split-join-enumerate-tuples-unpackage.py](src/python/aula-23-split-join-enumerate-tuples-unpackage.py)
 * [aula-24-list-of-list-tuples-enumerate.py](src/python/aula-24-list-of-list-tuples-enumerate.py)
 * [aula-25-lists-unpacking.py](src/python/aula-25-lists-unpacking.py)
+* [aula-26-swap-value-between-2-variables.py](src/python/aula-26-swap-value-between-2-variables.py)
+* [aula-27-conditional-expression-ternary-operation.py](src/python/aula-27-conditional-expression-ternary-operation.py)
+
+
+#### 3.5.2. Intermediário da linguagem Python
+
+#### 3.5.2.1. Functions `def`
+
+
 
 ## I - Referências
 
@@ -97,3 +106,4 @@ Sugestão de [estratégia de branches e workflow](https://github.com/josemarsilv
 * [Youtube - Felipe Deschamps](https://www.youtube.com/watch?v=Gojqw9BQ5qY)
 * [Python 3 - Documentation](https://docs.python.org/3/library/index.html)
 * [Python Tutorial - W3School (Online)](https://www.w3schools.com/python/default.asp)
+* [Python Tips](https://book.pythontips.com/en/latest)
