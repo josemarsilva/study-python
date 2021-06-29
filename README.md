@@ -108,6 +108,9 @@ Sugestão de [estratégia de branches e workflow](https://github.com/josemarsilv
 * [lab-110-list-comprehension.py](src/python/lab-110-list-comprehension.py)
 * [lab-111-dictionary-set-comprehension.py](src/python/lab-111-dictionary-set-comprehension.py)
 * [lab-112-iterable-iterator-generator-yield.py](/src/python/lab-112-iterable-iterator-generator-yield.py)
+* [lab-113-module-datetime-math-random-sys-time.py](/src/python/lab-113-module-datetime-math-random-sys-time.py)
+* [lab-114-iterable-zip-itertools-zip-longest.py](/src/python/lab-114-iterable-zip-itertools-zip-longest.py)
+* [lab-115-itertools-combinations-permutations-products.py](/src/python/lab-115-itertools-combinations-permutations-products.py)
 
 ## I - Referências
 

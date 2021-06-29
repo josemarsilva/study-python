@@ -84,13 +84,13 @@ print('\n# 8. Dictionary - dictionary of dictionary\n')
 clientes = {
     'cliente#1':
         {
-            'nome': 'Josemar',
-            'sobrenome': 'Silva'
+            'name': 'Josemar',
+            'sobrename': 'Silva'
         },
     'cliente#2':
         {
-            'nome': 'Maria',
-            'sobrenome': 'Silva'
+            'name': 'Maria',
+            'sobrename': 'Silva'
         },
     'cliente#3':
         {

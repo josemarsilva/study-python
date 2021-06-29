@@ -4,6 +4,8 @@
 # Docs       : https://docs.python.org/3/whatsnew/2.3.html#extended-slices
 #
 
+print('\n# 1. String, index and slice\n')
+
 #           0         1          2
 #           0123456789001234567890
 str_text = "Python e charmoso"
