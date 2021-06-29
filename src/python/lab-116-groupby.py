@@ -6,7 +6,7 @@
 
 print('\n# 1. GroupBy - require data to be sorted\n')
 
-from itertools import groupby
+from itertools import groupby, tee
 
 students_grade = [
     {'name': 'Jose',    'grade': 'B'},
@@ -40,6 +40,12 @@ for x in students_grade_groupby:
         # :
 
 print('')
-print(f'students_grade_groupby: {list(students_grade_groupby)}')
+students_grade_groupby = groupby(students_grade, sort_by)
+print(f'students_grade_groupby: {students_grade_groupby}')  # students_grade_groupby: <itertools.groupby object at 0x0000023EF5243A98>
 for groupby_key, groupby_values in students_grade_groupby:
-    print(f'{groupby_key}, {groupby_values}')
+    v1, v2 = tee(groupby_values)
+    qtde = len(list(v2))
+    print(f'+ {groupby_key} ({qtde}):')
+    for d1 in v1:
+        print(f'  - ', d1['name'])
+

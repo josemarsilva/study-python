@@ -14,9 +14,9 @@ print('hasattr(list_iterable_obj,\'__iter__\'): ', hasattr(list_iterable_obj,'__
 print('hasattr(number_non_iterable_obj,\'__iter__\'): ', hasattr(number_non_iterable_obj,'__iter__'))  # False
 print('hasattr(string_iterable_obj,\'__iter__\'): ', hasattr(string_iterable_obj,'__iter__'))          # True
 print('')
-print('hasattr(list_iterable_obj,\'__next__\'): ', hasattr(list_iterable_obj,'__next__'))              # True
+print('hasattr(list_iterable_obj,\'__next__\'): ', hasattr(list_iterable_obj,'__next__'))              # False
 print('hasattr(number_non_iterable_obj,\'__next__\'): ', hasattr(number_non_iterable_obj,'__next__'))  # False
-print('hasattr(string_iterable_obj,\'__next__\'): ', hasattr(string_iterable_obj,'__next__'))          # True
+print('hasattr(string_iterable_obj,\'__next__\'): ', hasattr(string_iterable_obj,'__next__'))          # False
 
 print('\n# 2. Transfor object iterable list into iterator object \n')
 iter_list_iterable_obj = iter(list_iterable_obj)
