@@ -111,6 +111,12 @@ Sugestão de [estratégia de branches e workflow](https://github.com/josemarsilv
 * [lab-113-module-datetime-math-random-sys-time.py](/src/python/lab-113-module-datetime-math-random-sys-time.py)
 * [lab-114-iterable-zip-itertools-zip-longest.py](/src/python/lab-114-iterable-zip-itertools-zip-longest.py)
 * [lab-115-itertools-combinations-permutations-products.py](/src/python/lab-115-itertools-combinations-permutations-products.py)
+* [lab-116-groupby.py](/src/python/lab-116-groupby.py)
+* [lab-117-map-data.py](/src/python/lab-117-map-data.py)
+* [lab-118-map-lambda-function-as-parameter.py](/src/python/lab-118-map-lambda-function-as-parameter.py)
+* [lab-119-filter-lambda-function-as-parameter.py](/src/python/lab-119-filter-lambda-function-as-parameter.py)
+* [lab-120-reduce-lambda-function-as-parameter.py](/src/python/lab-120-reduce-lambda-function-as-parameter.py)
+
 
 ## I - Referências
 

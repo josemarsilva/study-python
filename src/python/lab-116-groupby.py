@@ -40,6 +40,7 @@ for x in students_grade_groupby:
         # :
 
 print('')
+# instanciado denovo para contornar o problema do fim do iterador
 students_grade_groupby = groupby(students_grade, sort_by)
 print(f'students_grade_groupby: {students_grade_groupby}')  # students_grade_groupby: <itertools.groupby object at 0x0000023EF5243A98>
 for groupby_key, groupby_values in students_grade_groupby:
