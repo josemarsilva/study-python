@@ -128,14 +128,9 @@ Sugestão de [estratégia de branches e workflow](https://github.com/josemarsilv
       * [`fmt.py`](./src/python/usercustompackage/subpackage/fmt.py)
 * [`lab-124-file-open-write-read-seek-with-close.py`](./src/python/lab-124-file-open-write-read-seek-with-close.py)
 * [`lab-126-package-module-relative-reference-sys-path.py](./src/python/lab-126-package-module-relative-reference-sys-path.py)
-  * [`package1`](./src/python/package1):
-    * [`module1`](./src/python/package1/module1.py)
-    * [`module2`](./src/python/package1/module1.py)
-  * [`package2`](./src/python/package2):
-    * [`module1`](./src/python/package2/module1.py)
-  * [`package3`](./src/python/package3):
-    * [`subpackage31`](./src/python/package3/subpackage31):
-      * [`module1`](./src/python/package3/subpackage31/module1.py)
+  * [`package1`](./src/python/package1):  [`module1`](./src/python/package1/module1.py),  [`module2`](./src/python/package1/module1.py)
+  * [`package2`](./src/python/package2): [`module1`](./src/python/package2/module1.py)
+  * [`package3`](./src/python/package3): [`subpackage31`](./src/python/package3/subpackage31), [`module1`](./src/python/package3/subpackage31/module1.py)
 
 ## I - Referências
 
