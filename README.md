@@ -119,13 +119,14 @@ Sugestão de [estratégia de branches e workflow](https://github.com/josemarsilv
 * [lab-121-exception-handling-try-except-raise-exception.py](/src/python/lab-121-exception-handling-try-except-raise-exception.py)
 * [lab-122-module-import-library-usercustom-pip-install-venv-activate.py](/src/python/lab-122-module-import-library-usercustom-pip-install-venv-activate.py)
   * [moduleusercustom.py](/src/python/moduleusercustom.py)
-* [lab-123-package-usercustom.py](lab-123-package-usercustom.py/src/python/)
+* [lab-123-package-usercustom.py](/src/python/lab-123-package-usercustom.py)
   * [usercustompackage](/src/python/usercustompackage)
-    * [__init__.py](/src/python/__init__.py)
-    * [calculate.py](/src/python/calculate.py)
-    * [subpackage](/src/python/subpackage)
-      * [__init__.py](/src/python/subpackage/__init__.py)
-      * [fmt.py](/src/python/subpackage/fmt.py)
+    * [__init__.py](/src/python/usercustompackage/__init__.py)
+    * [calculate.py](/src/python/usercustompackage/calculate.py)
+    * [subpackage](/src/python/usercustompackage/subpackage)
+      * [__init__.py](/src/python/usercustompackage/subpackage/__init__.py)
+      * [fmt.py](/src/python/usercustompackage/subpackage/fmt.py)
+* [lab-124-file-open-write-read-seek-close.py](/src/python/lab-124-file-open-write-read-seek-close.py)
 
 
 ## I - Referências
