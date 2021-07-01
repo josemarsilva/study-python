@@ -1,7 +1,8 @@
 #
 # filename   : lab-20-for-iterator-range.py
 # Description: For iterator, range,
-# Docs       : https://docs.python.org/3/tutorial/datastructures.html#looping-techniques
+# Docs       :  * https://docs.python.org/3/tutorial/datastructures.html#looping-techniques
+#               * https://docs.python.org/3.9/reference/index.html
 #
 
 print('\n# 1. For iterator, range() \n')

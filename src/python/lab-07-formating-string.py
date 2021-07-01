@@ -1,7 +1,8 @@
 #
 # filename   : lab-07-formating-string.py
 # Description: Formatting string
-# Docs       : https://docs.python.org/3/contents.html
+# Docs       :  * https://docs.python.org/3/contents.html
+#               * https://docs.python.org/3.9/reference/index.html
 #
 
 nome = "Josemar"      # str

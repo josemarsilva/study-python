@@ -1,7 +1,8 @@
 #
 # filename   : lab-17-string-index-slice.py
 # Description: String [index], slice [start:end]
-# Docs       : https://docs.python.org/3/whatsnew/2.3.html#extended-slices
+# Docs       :  * https://docs.python.org/3/whatsnew/2.3.html#extended-slices
+#               * https://docs.python.org/3.9/reference/index.html
 #
 
 print('\n# 1. String, index and slice\n')

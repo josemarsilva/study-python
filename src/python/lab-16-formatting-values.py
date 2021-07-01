@@ -1,7 +1,8 @@
 #
 # filename   : lab-16-formatting-values.py
 # Description: format(), f''. Examples: :s string, :d inteiro, :f decimais, :(number-of-chars)
-# Docs       : https://docs.python.org/3/whatsnew/3.6.html#pep-498-formatted-string-literals
+# Docs       :  * https://docs.python.org/3/whatsnew/3.6.html#pep-498-formatted-string-literals
+#               * https://docs.python.org/3.9/reference/index.html
 #
 
 num_1 = 10

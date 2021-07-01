@@ -1,7 +1,8 @@
 #
 # filename   : lab-24-list-of-list-tuples-enumerate.py
 # Description: Lists
-# Docs       : https://docs.python.org/3/whatsnew/2.0.html#list-comprehensions
+# Docs       :  * https://docs.python.org/3/whatsnew/2.0.html#list-comprehensions
+#               * https://docs.python.org/3.9/reference/index.html
 #
 
 print('\n# 1. list of list, tuples, enumerate \n')

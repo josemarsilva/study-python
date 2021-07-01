@@ -1,7 +1,8 @@
 #
 # filename   : lab-26-swap-value-between-2-variables.py
 # Description: Lists
-# Docs       : https://docs.python.org/3/tutorial/controlflow.html#unpacking-argument-lists
+# Docs       :  * https://docs.python.org/3/tutorial/controlflow.html#unpacking-argument-lists
+#               * https://docs.python.org/3.9/reference/index.html
 #
 
 # 1. Swap values between 2 variables

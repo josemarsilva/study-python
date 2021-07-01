@@ -1,7 +1,8 @@
 #
 # filename   : lab-14-try-except.py
 # Description: Try ... Except ...
-# Docs       : https://docs.python.org/3/whatsnew/2.5.html#pep-341-unified-try-except-finally
+# Docs       :  * https://docs.python.org/3/whatsnew/2.5.html#pep-341-unified-try-except-finally
+#               * https://docs.python.org/3.9/reference/index.html
 #
 
 num1 = input("Digite numero #1 (digite 1.05): ")

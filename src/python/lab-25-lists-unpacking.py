@@ -1,7 +1,8 @@
 #
 # filename   : lab-25-lists-unpacking.py
 # Description: Lists
-# Docs       : https://docs.python.org/3/whatsnew/2.0.html#list-comprehensions
+# Docs       :  * https://docs.python.org/3/whatsnew/2.0.html#list-comprehensions
+#               * https://docs.python.org/3.9/reference/index.html
 #
 
 

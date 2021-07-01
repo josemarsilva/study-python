@@ -1,7 +1,8 @@
 #
 # filename   : lab-10-relational-operator.py
 # Description: Relational operator: == <> >= <= !=
-# Docs       : https://docs.python.org/3/contents.html
+# Docs       :  * https://docs.python.org/3/contents.html
+#               * https://docs.python.org/3.9/reference/index.html
 #
 
 # Operadores relacionais:

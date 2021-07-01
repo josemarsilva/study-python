@@ -2,7 +2,8 @@
 # filename   : lab-13-built-in-functions-documentation.py
 # Description: Built in functions documentation - input(), isdecimal(), isdigit(), isnumeric(),
 #              istitle(), isupper(), islower()
-# Docs       : https://docs.python.org/3/library/stdtypes.html
+# Docs       :  * https://docs.python.org/3/library/stdtypes.html
+#               * https://docs.python.org/3.9/reference/index.html
 #
 
 # 1. Input default Data Type is string - Python do NOT convert to you

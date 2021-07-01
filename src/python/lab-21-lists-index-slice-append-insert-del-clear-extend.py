@@ -1,7 +1,8 @@
 #
 # filename   : lab-21-lists-index-slice-append-insert-pop-del-clear-extend.py
 # Description: Lists
-# Docs       : https://docs.python.org/3/tutorial/introduction.html#lists
+# Docs       :  * https://docs.python.org/3/tutorial/introduction.html#lists
+#               * https://docs.python.org/3.9/reference/index.html
 #
 
 # 1. Relembrando os tipos de dados

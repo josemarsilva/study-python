@@ -1,7 +1,8 @@
 #
 # filename   : lab-18-while-continue.py
 # Description: String [index], slice [start:end]
-# Docs       : https://docs.python.org/3/reference/compound_stmts.html#the-while-statement
+# Docs       :  * https://docs.python.org/3/reference/compound_stmts.html#the-while-statement
+#               * https://docs.python.org/3.9/reference/index.html
 #
 
 # 1. While, break, continue

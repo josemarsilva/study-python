@@ -1,7 +1,8 @@
 #
 # filename   : lab-01-helloworld-remarks.py
 # Description: How to print "Hello World" and how to use "quotes"
-# Docs       : https://docs.python.org/3/contents.html
+# Docs       :  * https://docs.python.org/3/contents.html
+#               * https://docs.python.org/3.9/reference/index.html
 #
 
 print("hello world double quotes !")

@@ -1,7 +1,8 @@
 #
 # filename   : lab-03-primitive-datatype-string.py
 # Description: Primitive string datatype
-# Docs       : https://docs.python.org/3/contents.html
+# Docs       :  * https://docs.python.org/3/contents.html
+#               * https://docs.python.org/3.9/reference/index.html
 #
 
 print("algum string (str)")

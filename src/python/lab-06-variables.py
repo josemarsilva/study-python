@@ -1,7 +1,8 @@
 #
 # filename   : lab-06-variables.py
 # Description: Variables
-# Docs       : https://docs.python.org/3/contents.html
+# Docs       :  * https://docs.python.org/3/contents.html
+#               * https://docs.python.org/3.9/reference/index.html
 #
 
 nome = "Josemar"      # str

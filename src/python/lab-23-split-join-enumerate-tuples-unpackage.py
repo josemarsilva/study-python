@@ -1,7 +1,8 @@
 #
 # filename   : lab-23-split-join-enumerate-tuples-unpackage.py
 # Description: Funcoes split(), join(), enumerate()
-# Docs       : https://docs.python.org/3/howto/regex.html#splitting-strings
+# Docs       :  * https://docs.python.org/3/howto/regex.html#splitting-strings
+#               * https://docs.python.org/3.9/reference/index.html
 #
 
 # 1. Split e Join

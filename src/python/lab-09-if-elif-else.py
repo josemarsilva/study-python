@@ -1,7 +1,8 @@
 #
 # filename   : lab-09-if-elif-else.py
 # Description: Decision if elif else
-# Docs       : https://docs.python.org/3/contents.html
+# Docs       :  * https://docs.python.org/3/contents.html
+#               * https://docs.python.org/3.9/reference/index.html
 #
 
 if True:

@@ -1,7 +1,8 @@
 #
 # filename   : lab-08-user-input-casting-datatype.py
 # Description: User input casting datatype
-# Docs       : https://docs.python.org/3/contents.html
+# Docs       :  * https://docs.python.org/3/contents.html
+#               * https://docs.python.org/3.9/reference/index.html
 #
 
 nome = input("Qual o seu nome? ")

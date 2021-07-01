@@ -1,7 +1,8 @@
 #
 # filename   : lab-27-conditional-expression-ternary-operation.py
 # Description: Conditional expression, ternary operation
-# Docs       : https://docs.python.org/3/reference/expressions.html?highlight=ternary#conditional-expressions
+# Docs       :  * https://docs.python.org/3/reference/expressions.html?highlight=ternary#conditional-expressions
+#               * https://docs.python.org/3.9/reference/index.html
 #
 
 # 1. Conditional expression - ternary operation

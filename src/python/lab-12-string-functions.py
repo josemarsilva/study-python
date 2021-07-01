@@ -1,7 +1,9 @@
 #
 # filename   : lab-12-string-functions.py
 # Description: String functions - len(), isdigit(), upper(), lower(), title()
-# Docs       : https://docs.python.org/3/contents.html
+# Docs       :  * https://docs.python.org/3/contents.html
+#               * https://docs.python.org/3.9/reference/index.html
+
 #
 import string
 

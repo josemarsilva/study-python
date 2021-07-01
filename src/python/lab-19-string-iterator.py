@@ -1,7 +1,8 @@
 #
 # filename   : lab-19-string-iterator.py
 # Description: String iterator
-# Docs       : https://docs.python.org/3/library/stdtypes.html#iterator-types
+# Docs       :  * https://docs.python.org/3/library/stdtypes.html#iterator-types
+#               * https://docs.python.org/3.9/reference/index.html
 #
 
 #        0         1         2         3

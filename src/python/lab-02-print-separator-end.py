@@ -1,7 +1,8 @@
 #
 # filename   : lab-02-print-separator-end.py
 # Description: How to print separator
-# Docs       : https://docs.python.org/3/contents.html
+# Docs       :  * https://docs.python.org/3/contents.html
+#               * https://docs.python.org/3.9/reference/index.html
 #
 
 print('Josemar', 'Silva', 'Outra coisa')

@@ -1,7 +1,8 @@
 #
 # filename   : lab-22-list-for-continue-if-else.py
 # Description: Lists, for, continue, if else
-# Docs       : https://docs.python.org/3/tutorial/introduction.html#lists
+# Docs       :  * https://docs.python.org/3/tutorial/introduction.html#lists
+#               * https://docs.python.org/3.9/reference/index.html
 #
 
 list = ['Brasil', 'Argentina', 'Uruguai', 'Paraguai', 'Bolivia', 'Chile', 'Peru', 'Venezuela', 'Colombia']

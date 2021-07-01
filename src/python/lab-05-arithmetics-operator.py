@@ -1,7 +1,8 @@
 #
 # filename   : lab-05-arithmetics-operator.py
 # Description: Arithmetics operators +, -, *, /, //, %
-# Docs       : https://docs.python.org/3/contents.html
+# Docs       :  * https://docs.python.org/3/contents.html
+#               * https://docs.python.org/3.9/reference/index.html
 #
 
 print('\n# 1. Arithmetics operation \n')
