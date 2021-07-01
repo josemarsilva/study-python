@@ -118,7 +118,7 @@ Sugestão de [estratégia de branches e workflow](https://github.com/josemarsilv
 * [`lab-120-reduce-lambda-function-as-parameter.py`](./src/python/lab-120-reduce-lambda-function-as-parameter.py)
 * [`lab-121-exception-handling-try-except-raise-exception.py`](./src/python/lab-121-exception-handling-try-except-raise-exception.py)
 * [`lab-122-module-import-library-usercustom-pip-install-venv-activate.py`](./src/python/lab-122-module-import-library-usercustom-pip-install-venv-activate.py)
-  * [moduleusercustom.py`](./src/python/moduleusercustom.py)
+  * [`moduleusercustom.py`](./src/python/moduleusercustom.py)
 * [`lab-123-package-usercustom.py`](./src/python/lab-123-package-usercustom.py)
   * [`usercustompackage`](./src/python/usercustompackage)
     * [`__init__.py`](./src/python/usercustompackage/__init__.py)
