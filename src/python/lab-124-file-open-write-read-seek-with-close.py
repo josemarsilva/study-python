@@ -1,5 +1,5 @@
 #
-# filename   : lab-124-file-open-write-read-seek-close.py
+# filename   : lab-124-file-open-write-read-seek-with-close.py
 # Description: File Open
 # Docs       :  * https://docs.python.org/3/library/functions.html#open
 #
