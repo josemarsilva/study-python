@@ -94,7 +94,7 @@ Sugestão de [estratégia de branches e workflow](https://github.com/josemarsilv
 * [lab-27-conditional-expression-ternary-operation.py](src/python/lab-27-conditional-expression-ternary-operation.py)
 
 
-#### 3.5.2. Básico da linguagem Python
+#### 3.5.2. Intermediário da linguagem Python
 
 * [lab-101-def-function-create-use-arguments-default-return.py](src/python/lab-101-def-function-create-use-arguments-default-return.py)
 * [lab-102-def-return-no-return-function-return.py](src/python/lab-102-def-return-no-return-function-return.py)
@@ -116,6 +116,16 @@ Sugestão de [estratégia de branches e workflow](https://github.com/josemarsilv
 * [lab-118-map-lambda-function-as-parameter.py](/src/python/lab-118-map-lambda-function-as-parameter.py)
 * [lab-119-filter-lambda-function-as-parameter.py](/src/python/lab-119-filter-lambda-function-as-parameter.py)
 * [lab-120-reduce-lambda-function-as-parameter.py](/src/python/lab-120-reduce-lambda-function-as-parameter.py)
+* [lab-121-exception-handling-try-except-raise-exception.py](/src/python/lab-121-exception-handling-try-except-raise-exception.py)
+* [lab-122-module-import-library-usercustom-pip-install-venv-activate.py](/src/python/lab-122-module-import-library-usercustom-pip-install-venv-activate.py)
+  * [moduleusercustom.py](/src/python/moduleusercustom.py)
+* [lab-123-package-usercustom.py](lab-123-package-usercustom.py/src/python/)
+  * [usercustompackage](/src/python/usercustompackage)
+    * [__init__.py](/src/python/__init__.py)
+    * [calculate.py](/src/python/calculate.py)
+    * [subpackage](/src/python/subpackage)
+      * [__init__.py](/src/python/subpackage/__init__.py)
+      * [fmt.py](/src/python/subpackage/fmt.py)
 
 
 ## I - Referências
