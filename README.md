@@ -157,7 +157,7 @@ Sugestão de [estratégia de branches e workflow](https://github.com/josemarsilv
   * O programa deve pedir como entrada cada um dos valores: `a`, `b` e `c`
   * O programa deve consistir os valores de entradas e apresentar mensagens de erros específicas
   * O programa deve calcular e apresentar o valor de _Delta_
-  * O programa deve calcluar e apresentar os dois valores da equação: `x1` e `x2` (se houver solução)
+  * O programa deve dizer se a equação tem solução, calcular e apresentar os dois valores da equação: `x1` e `x2`
 * Requisitos técnico não funcional:
   * O programa deve ter pelo menos uma função
   * O programa deverá fazer uso dos seguintes recursos de programação em linguagem Python:
