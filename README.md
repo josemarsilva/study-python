@@ -134,7 +134,7 @@ Sugestão de [estratégia de branches e workflow](https://github.com/josemarsilv
 
 #### 3.5.3. Avançado da linguagem Python
 
-##### Python language advanced issues
+##### 3.5.3.1. Python language advanced issues
 
 * [`lab-201-package-module-relative-reference-sys-path.py`](src/python/lab-201-package-module-relative-reference-sys-path.py)
   * [`package1`](./src/python/package1):  [`module1`](./src/python/package1/module1.py),  [`module2`](./src/python/package1/module1.py)
@@ -143,12 +143,12 @@ Sugestão de [estratégia de branches e workflow](https://github.com/josemarsilv
 * [`lab-202-decorators.py`](src/python/lab-202-decorators.py)
 * [`lab-203-solving-mutable-arguments-function.py`](src/python/lab-203-solving-mutable-arguments-function.py)
 
-##### Python & AI - Artificial Intelligence
+##### 3.5.3.2. Python & AI - Artificial Intelligence
 
 
 #### 3.5.4. Exercício de aproveitamento
 
-##### Exercício 01: Programa Python para calcular os dois valores de uma equação do 2o grau por Bhaskara
+##### 3.5.3.1. Exercício 01: Programa Python para calcular os dois valores de uma equação do 2o grau por Bhaskara
 
 * Requisitos de negócio:
   * https://mundoeducacao.uol.com.br/matematica/formula-bhaskara.htm
