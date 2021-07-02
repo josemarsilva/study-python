@@ -28,6 +28,7 @@ Sugestão de [estratégia de branches e workflow](https://github.com/josemarsilv
 * Python 3 - Windows ou Linux
 * [Google Colab](https://colab.research.google.com/)
 
+
 #### b. Ferramental de apoio
 
 * Ferramenta: [Draw.IO](https://app.diagrams.net/) (_apoio_: necessário para editar os diagramas UML)
@@ -53,15 +54,17 @@ Sugestão de [estratégia de branches e workflow](https://github.com/josemarsilv
 
 * https://www.jetbrains.com/pycharm/download/#section=linux
 
+#### c. Uso gratuito da Jupyter Notebook (Platform as a Service)
 
-#### c. Uso gratuito do Google Colabs PaaS (Platform as a Service)
+* https://jupyter.org/
+  * Clique `Try in your Browser`
+  * Clique `Try Classic Notebook`
+
+#### d. Uso gratuito do Google Colabs PaaS (Platform as a Service)
 
 * https://colab.research.google.com/
 
-
 ### 3.5. Guia de Estudo
-
-* n/a
 
 #### 3.5.1. Básico da linguagem Python
 
@@ -127,10 +130,39 @@ Sugestão de [estratégia de branches e workflow](https://github.com/josemarsilv
       * [`__init__.py`](./src/python/usercustompackage/subpackage/__init__.py)
       * [`fmt.py`](./src/python/usercustompackage/subpackage/fmt.py)
 * [`lab-124-file-open-write-read-seek-with-close.py`](./src/python/lab-124-file-open-write-read-seek-with-close.py)
-* [`lab-126-package-module-relative-reference-sys-path.py`](./src/python/lab-126-package-module-relative-reference-sys-path.py)
+
+
+#### 3.5.3. Avançado da linguagem Python
+
+##### Python language advanced issues
+
+* [`lab-201-package-module-relative-reference-sys-path.py`](src/python/lab-201-package-module-relative-reference-sys-path.py)
   * [`package1`](./src/python/package1):  [`module1`](./src/python/package1/module1.py),  [`module2`](./src/python/package1/module1.py)
   * [`package2`](./src/python/package2): [`module1`](./src/python/package2/module1.py)
   * [`package3`](./src/python/package3): [`subpackage31`](./src/python/package3/subpackage31), [`module1`](./src/python/package3/subpackage31/module1.py)
+* [`lab-202-decorators.py`](src/python/lab-202-decorators.py)
+* [`lab-203-solving-mutable-arguments-function.py`](src/python/lab-203-solving-mutable-arguments-function.py)
+
+##### Python & AI - Artificial Intelligence
+
+
+#### 3.5.4. Exercício de aproveitamento
+
+##### Exercício 01: Programa Python para calcular os dois valores de uma equação do 2o grau por Bhaskara
+
+* Requisitos de negócio:
+  * https://mundoeducacao.uol.com.br/matematica/formula-bhaskara.htm
+* Requisitos técnico funcional:
+  * Faça um programa Python para calcular uma equação do 2o grau pelo método de Bhaskara
+  * O programa deve pedir como entrada cada um dos valores: `a`, `b` e `c`
+  * O programa deve consistir os valores de entradas e apresentar mensagens de erros específicas
+  * O programa deve calcular e apresentar o valor de _Delta_
+  * O programa deve calcluar e apresentar os dois valores da equação: `x1` e `x2` (se houver solução)
+* Requisitos técnico não funcional:
+  * O programa deve ter pelo menos uma função
+  * O programa deverá fazer uso dos seguintes recursos de programação em linguagem Python:
+    * variables, datatypes(integer, float, string), operations (+, -, *, /), user input, format (integers numbers, float always 3 decimal place), operators (if, then, else, else if), exception manipulation (try, catch), define functions, module import
+
 
 ## I - Referências
 

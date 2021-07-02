@@ -1,5 +1,5 @@
 #
-# filename   : lab-126-package-module-relative-reference-sys-path.py
+# filename   : lab-201-package-module-relative-reference-sys-path.py
 # Description: Packages, modules, relative references, sys.path
 # Docs       :  * https://docs.python.org/3.9/reference/index.html
 #
