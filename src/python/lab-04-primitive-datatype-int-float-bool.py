@@ -10,24 +10,24 @@
 # float - real/float point - 10.50 ou 3.141572
 # bool  - boolean - True/False 10 == 10
 
-print("Josemar", type("Josemar"))
-print("10", type("10"))
-print(10, type(10))
-print(-1, type(-1))
-print(3.141572, type(3.141572))
-print(1==1, type(1==1))
-print(bool(0), type(bool(0)))
-print(bool('qualquer coisa'), type(bool('qualquer coisa')))
-print(float('10.0'))
+print("Josemar", type("Josemar"))   # Josemar <class 'str'>
+print("10", type("10"))             # 10 <class 'str'>
+print(10, type(10))                 # 10 <class 'int'>
+print(-1, type(-1))                 # -1 <class 'int'>
+print(3.141572, type(3.141572))     # 3.141572 <class 'float'>
+print(1==1, type(1==1))             # True <class 'bool'>
+print(bool(0), type(bool(0)))       # False <class 'bool'>
+print(bool('qualquer coisa'), type(bool('qualquer coisa')))  # True <class 'bool'>
+print(float('10.0'))                # 10.0
 
 # nome: str
-print('Josemar', type('Josemar'))
+print('Josemar', type('Josemar'))   # Josemar <class 'str'>
 
 # idade: int
-print(52, type(52))
+print(52, type(52))                 # 52 <class 'int'>
 
 # altura: float
-print(1.69, type(1.69))
+print(1.69, type(1.69))             # 1.69 <class 'float'>
 
 # maior de idade
-print(52>=18, type(52>=18))
+print(52>=18, type(52>=18))         # True <class 'bool'>

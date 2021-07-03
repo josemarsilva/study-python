@@ -64,6 +64,10 @@ Sugestão de [estratégia de branches e workflow](https://github.com/josemarsilv
 
 * https://colab.research.google.com/
 
+#### e. Uso gratuito do W3School Python Online Interpreter Demo
+
+* https://www.w3schools.com/python/trypython.asp?filename=demo_default
+
 ### 3.5. Guia de Estudo
 
 #### 3.5.1. Básico da linguagem Python
@@ -145,6 +149,10 @@ Sugestão de [estratégia de branches e workflow](https://github.com/josemarsilv
 
 ##### 3.5.3.2. Python & AI - Artificial Intelligence
 
+##### 3.5.3.2.1 Dataset manipulation
+
+##### 3.5.3.2.1 Numpy, multi dimensional arrays and list vs np.array
+
 
 #### 3.5.4. Exercício de aproveitamento
 
@@ -160,8 +168,34 @@ Sugestão de [estratégia de branches e workflow](https://github.com/josemarsilv
   * O programa deve dizer se a equação tem solução, calcular e apresentar os dois valores da equação: `x1` e `x2`
 * Requisitos técnico não funcional:
   * O programa deve ter pelo menos uma função
+  * O programa deve funcionar como um módulo, isto é se executado diretamente deve pedir as variáveis de entrada, porém se carregado por outro programa pode ser chamado por uma função `bhaskara(a,b,c)` 
   * O programa deverá fazer uso dos seguintes recursos de programação em linguagem Python:
-    * variables, datatypes(integer, float, string), operations (+, -, *, /), user input, format (integers numbers, float always 3 decimal place), operators (if, then, else, else if), exception manipulation (try, catch), define functions, module import
+    * variables, datatypes(integer, float, string), operations (+, -, *, /), user input, format (integers numbers, float always 3 decimal place), casting, operators (if, then, else, else if), exception manipulation (try, catch), define functions, module import
+
+
+##### 3.5.3.2. Exercício 01: Programa Python para calcular os dois valores de uma equação do 2o grau por Bhaskara
+
+* Requisitos de negócio:
+  * Programa que leia o texto de um arquivo e apresente um resumo das top 10 palavras mais utilizadas no texto e as linhas correspondentes onde a palavara apareceu
+* Requisitos técnico funcional:
+  * Faça um programa Python para identificar e apresentar como saída as top 10 palavras utilizadas no texto
+  * O texto encontra-se nos arquivos anexos file-06-trecho-livro-filosofia` e `file-07-trecho-livro-literatura`
+  * As palavras compostas unidas por um traço devem ser consideradas em separado: Ex: lírio-do-vale serão 3 palavaras
+  * As seguintes preposições e artigos devem ser desconsiderados: a, as, o, os, um, uma, de, do, da
+  * As palavras maiúsculas e minúsculas devem ser consideradas com uma única palavra
+  * As palavras são formadas por letras vogais e consoantes, incluindo as acentuações. Demais caracteres não podem ser confundidos com palavras. Ex: '.', ';', ',', '\[', '\]', '\{', /, \, números
+  * O resumo apresentado deve conter: o nome do arquivo, a lista das 10 palavras mais utilizadas com a relação das linhas de cada ocorrência
+
+```txt
+Arquivo analisado: file-05-trecho-livro-literatura
+Lista das top 10 palavras mais utilizadas e as respectivas linhas onde aparecem:
+* 10 x palavra: - L-1, L-2, L-2, L3, ..
+* 10 x outra: - L-1, L-2, L3, ..
+```
+
+* Requisitos técnico não funcional:
+  * O programa deverá fazer uso dos seguintes recursos de programação em linguagem Python:
+    * string, iterators, list, tuple, dictionary, set
 
 
 ## I - Referências
