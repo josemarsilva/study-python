@@ -134,6 +134,8 @@ Sugestão de [estratégia de branches e workflow](https://github.com/josemarsilv
       * [`__init__.py`](./src/python/usercustompackage/subpackage/__init__.py)
       * [`fmt.py`](./src/python/usercustompackage/subpackage/fmt.py)
 * [`lab-124-file-open-write-read-seek-with-close.py`](./src/python/lab-124-file-open-write-read-seek-with-close.py)
+* [`lab-125-json-write-to-read-from-file.py`](./src/python/lab-125-json-write-to-read-from-file.py)
+* [`lab-126-file-read-write-csv-tsv-comma-positional-utf7-utf8-unicode.py`](./src/python/lab-126-file-read-write-csv-tsv-comma-positional-utf7-utf8-unicode.py)
 
 
 #### 3.5.3. Avançado da linguagem Python
@@ -179,7 +181,7 @@ Sugestão de [estratégia de branches e workflow](https://github.com/josemarsilv
   * Programa que leia o texto de um arquivo e apresente um resumo das top 10 palavras mais utilizadas no texto e as linhas correspondentes onde a palavara apareceu
 * Requisitos técnico funcional:
   * Faça um programa Python para identificar e apresentar como saída as top 10 palavras utilizadas no texto
-  * O texto encontra-se nos arquivos anexos file-06-trecho-livro-filosofia` e `file-07-trecho-livro-literatura`
+  * O texto encontra-se nos arquivos anexos `file-06-trecho-livro-filosofia` e `file-07-trecho-livro-literatura`
   * As palavras compostas unidas por um traço devem ser consideradas em separado: Ex: lírio-do-vale serão 3 palavaras
   * As seguintes preposições e artigos devem ser desconsiderados: a, as, o, os, um, uma, de, do, da
   * As palavras maiúsculas e minúsculas devem ser consideradas com uma única palavra
@@ -187,7 +189,7 @@ Sugestão de [estratégia de branches e workflow](https://github.com/josemarsilv
   * O resumo apresentado deve conter: o nome do arquivo, a lista das 10 palavras mais utilizadas com a relação das linhas de cada ocorrência
 
 ```txt
-Arquivo analisado: file-05-trecho-livro-literatura
+Arquivo analisado: file-06-trecho-livro-filosofia
 Lista das top 10 palavras mais utilizadas e as respectivas linhas onde aparecem:
 * 10 x palavra: - L-1, L-2, L-2, L3, ..
 * 10 x outra: - L-1, L-2, L3, ..
