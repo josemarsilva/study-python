@@ -195,6 +195,8 @@ Sugestão de [estratégia de branches e workflow](https://github.com/josemarsilv
 **Dataset** é o conjunto que possibilita o treinamento e validação do modelo de _ML_. Na internet há incontáveis sites que disponibilizam informações que podem ser processadas como Dataset: [Simple Nama AI](https://simple.nama.ai/post/uma-lista-com-15-datasets-interessantes-que-vimos-por-ai), [University of California](https://archive.ics.uci.edu/ml/datasets.php),  [Kaggle](https://www.kaggle.com/datasets), [IBM](https://developer.ibm.com/technologies/artificial-intelligence/data/) 
 
 * [`lab_301_dataset_iris_python_basic.ipynb`](src/ipynb/lab_301_dataset_iris_python_basic.ipynb)
+* [`lab_302_dataset_credit-risk.ipynb`](src/ipynb/lab_301_dataset_credit-risk.ipynb)
+
 
 ##### 3.5.3.2.2 Numpy
 
