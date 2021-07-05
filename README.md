@@ -198,8 +198,8 @@ Sugestão de [estratégia de branches e workflow](https://github.com/josemarsilv
 ![MindMapDiagram-Variaveis-Numericas-Categoricas-Continuas-Discretas-Nominal-Ordinal.png](./doc/mind-maps/MindMapDiagram-Variaveis-Numericas-Categoricas-Continuas-Discretas-Nominal-Ordinal.png)
 
 * Os laboratórios com _Dataset_ são:
-  * [`lab_301_dataset_iris_python_basic.ipynb`](src/ipynb/lab_301_dataset_iris_python_basic.ipynb)
-  * [`lab_302_dataset_credit-risk.ipynb`](src/ipynb/lab_301_dataset_credit-risk.ipynb)
+  * [`lab_301_dataset_iris_python_basic.ipynb`](https://colab.research.google.com/drive/1imfF6RbyeNCPLHV4UhxPGaEgUvAjFRaa)
+  * [`lab_302_dataset_credit-risk.ipynb`](https://colab.research.google.com/drive/1opP02RA60Mpwxz8JIcSymOpEJee94G9Y#scrollTo=21EuiPl69hi5)
 
 
 ##### 3.5.3.2.2 Numpy
