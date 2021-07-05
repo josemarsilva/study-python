@@ -192,10 +192,14 @@ Sugestão de [estratégia de branches e workflow](https://github.com/josemarsilv
 ##### 3.5.3.2. Python & AI - Artificial Intelligence
 
 ##### 3.5.3.2.1 Dataset
-**Dataset** é o conjunto que possibilita o treinamento e validação do modelo de _ML_. Na internet há incontáveis sites que disponibilizam informações que podem ser processadas como Dataset: [Simple Nama AI](https://simple.nama.ai/post/uma-lista-com-15-datasets-interessantes-que-vimos-por-ai), [University of California](https://archive.ics.uci.edu/ml/datasets.php),  [Kaggle](https://www.kaggle.com/datasets), [IBM](https://developer.ibm.com/technologies/artificial-intelligence/data/) 
+* **Dataset** é o conjunto que possibilita o treinamento e validação do modelo de _ML_. Na internet há incontáveis sites que disponibilizam informações que podem ser processadas como Dataset: [Simple Nama AI](https://simple.nama.ai/post/uma-lista-com-15-datasets-interessantes-que-vimos-por-ai), [University of California](https://archive.ics.uci.edu/ml/datasets.php),  [Kaggle](https://www.kaggle.com/datasets), [IBM](https://developer.ibm.com/technologies/artificial-intelligence/data/) 
+* Os tipos de **variáveis** de um _Dataset_ podem ser: Numéricas ou Categóricas conforme o mapa mental abaixo:
 
-* [`lab_301_dataset_iris_python_basic.ipynb`](src/ipynb/lab_301_dataset_iris_python_basic.ipynb)
-* [`lab_302_dataset_credit-risk.ipynb`](src/ipynb/lab_301_dataset_credit-risk.ipynb)
+![MindMapDiagram-Variaveis-Numericas-Categoricas-Continuas-Discretas-Nominal-Ordinal.png](./doc/mind-maps/MindMapDiagram-Variaveis-Numericas-Categoricas-Continuas-Discretas-Nominal-Ordinal.png)
+
+* Os laboratórios com _Dataset_ são:
+  * [`lab_301_dataset_iris_python_basic.ipynb`](src/ipynb/lab_301_dataset_iris_python_basic.ipynb)
+  * [`lab_302_dataset_credit-risk.ipynb`](src/ipynb/lab_301_dataset_credit-risk.ipynb)
 
 
 ##### 3.5.3.2.2 Numpy
