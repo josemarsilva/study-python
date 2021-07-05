@@ -183,13 +183,16 @@ Sugestão de [estratégia de branches e workflow](https://github.com/josemarsilv
   * Faça um programa Python para identificar e apresentar como saída as top 10 palavras utilizadas no texto
   * O texto encontra-se nos arquivos anexos `file-06-trecho-livro-filosofia` e `file-07-trecho-livro-literatura`
   * As palavras compostas unidas por um traço devem ser consideradas em separado: Ex: lírio-do-vale serão 3 palavaras
-  * As seguintes preposições e artigos devem ser desconsiderados: a, as, o, os, um, uma, de, do, da
-  * As palavras maiúsculas e minúsculas devem ser consideradas com uma única palavra
-  * As palavras são formadas por letras vogais e consoantes, incluindo as acentuações. Demais caracteres não podem ser confundidos com palavras. Ex: '.', ';', ',', '\[', '\]', '\{', /, \, números
+  * Algumas palavras devem ser desconsideradas por se tratarem de artigos ou preposições. Lista de palavras a serem desconsideradas: `a(s)`, `o(s)`, `um(s)`, `uma(s)`, `de`, `do` e `da`
+  * As palavras maiúsculas e minúsculas devem ser consideradas como a mesma palavra. Ex: Batata, batata.
+  * As separações silábicas de palavras no final da linha não podem comprometer a palavra. Ex: Se a palavra `batata` precisar ser quebrada de linha então fica: 
+    * L-n:     `... plantando bata-`
+    * L-(n+1): `ta na horta` 
+  * As palavras são formadas por letras vogais e consoantes, incluindo as acentuações. Os demais caracteres não podem ser confundidos com palavras. Ex: `,`, `.`, `;`, `:`, `?`, `|`, `[`, `]`, `{`, `}`, `/`, `\`, `0123456789`, `'`, `"`, `+`, `-`, `=`, `*`, `!`, `@`, `#`, `$`, `%`, `&`
   * O resumo apresentado deve conter: o nome do arquivo, a lista das 10 palavras mais utilizadas com a relação das linhas de cada ocorrência
 
 ```txt
-Arquivo analisado: file-06-trecho-livro-filosofia
+Arquivo analisado: file-06-trecho-livro-filosofia.txt
 Lista das top 10 palavras mais utilizadas e as respectivas linhas onde aparecem:
 * 10 x palavra: - L-1, L-2, L-2, L3, ..
 * 10 x outra: - L-1, L-2, L3, ..
@@ -197,13 +200,13 @@ Lista das top 10 palavras mais utilizadas e as respectivas linhas onde aparecem:
 
 * Requisitos técnico não funcional:
   * O programa deverá fazer uso dos seguintes recursos de programação em linguagem Python:
-    * string, iterators, list, tuple, dictionary, set
+    * string, iterators, list, tuple, dictionary, set, list comprehension,
 
 
 ## I - Referências
 
 * [Udemmy - Python 3](https://www.udemy.com/course/python-3-do-zero-ao-avancado)
-* [Youtube - Felipe Deschamps](https://www.youtube.com/watch?v=Gojqw9BQ5qY)
+* [Youtube - Felipe Deschamps](https://www.youtube.com/playlist?list=PLMdYygf53DP7YZiFUtGTWJJlvynRyrna-)
 * [Python 3 - Documentation](https://docs.python.org/3/library/index.html)
 * [Python Tutorial - W3School (Online)](https://www.w3schools.com/python/default.asp)
 * [Python Tips](https://book.pythontips.com/en/latest)
