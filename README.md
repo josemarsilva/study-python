@@ -199,6 +199,8 @@ Sugestão de [estratégia de branches e workflow](https://github.com/josemarsilv
 * https://www.kaggle.com/datasets
 * https://developer.ibm.com/technologies/artificial-intelligence/data/
 
+* [`lab_301_dataset_iris_python_basic.ipynb`](src/ipynb/lab_301_dataset_iris_python_basic.ipynb)
+
 ##### 3.5.3.2.2 Numpy
 
 ##### 3.5.3.2.3 Pandas
