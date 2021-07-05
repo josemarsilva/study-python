@@ -72,47 +72,100 @@ Sugestão de [estratégia de branches e workflow](https://github.com/josemarsilv
 
 #### 3.5.1. Básico da linguagem Python
 
+##### [Comments](https://www.w3schools.com/python/python_comments.asp)
+
 * [`lab-01-helloworld-remarks.py`](./src/python/lab-01-helloworld-remarks.py)
 * [`lab-02-print-separator-end.py`](./src/python/lab-02-print-separator-end.py)
+
+##### [Datatypes](https://www.w3schools.com/python/python_datatypes.asp)
+
 * [`lab-03-primitive-datatype-string.py`](./src/python/lab-03-primitive-datatype-string.py)
 * [`lab-04-primitive-datatype-int-float-bool.py`](./src/python/lab-04-primitive-datatype-int-float-bool.py)
+
+##### [Operators](https://www.w3schools.com/python/python_operators.asp)
+
 * [`lab-05-arithmetics-operator.py`](./src/python/lab-05-arithmetics-operator.py)
+
+##### [Variables](https://www.w3schools.com/python/python_variables.asp) and [Datatypes](https://www.w3schools.com/python/python_datatypes.asp)
+
 * [`lab-06-variables.py`](./src/python/lab-06-variables.py)
+
+##### [String Formatting](https://www.w3schools.com/python/python_string_formatting.asp)
+
 * [`lab-07-formating-string.py`](./src/python/lab-07-formating-string.py)
 * [`lab-08-user-input-casting-datatype.py`](./src/python/lab-08-user-input-casting-datatype.py)
+* [`lab-16-formatting-values.py`](./src/python/lab-16-formatting-values.py)
+
+##### [If, elif, else](https://www.w3schools.com/python/python_conditions.asp)
+
 * [`lab-09-if-elif-else.py`](./src/python/lab-09-if-elif-else.py)
 * [`lab-10-relational-operator.py`](./src/python/lab-10-relational-operator.py)
 * [`lab-11-logical-operator.py`](./src/python/lab-11-logical-operator.py)
+
+##### String [methods](https://www.w3schools.com/python/python_ref_string.asp) and index
+
 * [`lab-12-string-functions.py`](./src/python/lab-12-string-functions.py)
-* [`lab-13-built-in-functions-documentation.py`](./src/python/lab-13-built-in-functions-documentation.py)
-* [`lab-14-try-except.py`](./src/python/lab-14-try-except.py)
-* [`lab-15-pass-ellipsis-placeholders.py`](./src/python/lab-15-pass-ellipsis-placeholders.py)
-* [`lab-16-formatting-values.py`](./src/python/lab-16-formatting-values.py)
 * [`lab-17-string-index-slice.py`](./src/python/lab-17-string-index-slice.py)
+
+##### [Python Built-in function](https://www.w3schools.com/python/python_ref_functions.asp)
+
+* [`lab-13-built-in-functions-documentation.py`](./src/python/lab-13-built-in-functions-documentation.py)
+
+##### [try .. except](https://www.w3schools.com/python/python_try_except.asp)
+
+* [`lab-14-try-except.py`](./src/python/lab-14-try-except.py)
+
+##### Loop: [while](https://www.w3schools.com/python/python_while_loops.asp), [for](https://www.w3schools.com/python/python_for_loops.asp), range and [iterators](https://www.w3schools.com/python/python_iterators.asp)
+
 * [`lab-18-while-continue-for.py`](./src/python/lab-18-while-continue-for.py)
 * [`lab-19-string-iterator.py`](./src/python/lab-19-string-iterator.py)
 * [`lab-20-for-iterator-range.py`](./src/python/lab-20-for-iterator-range.py)
+* [`lab-15-pass-ellipsis-placeholders.py`](./src/python/lab-15-pass-ellipsis-placeholders.py)
+
+##### List, index, slice, enumerate, tuples, packing, unpacking, etc
+
 * [`lab-21-lists-index-slice-append-insert-del-clear-extend.py`](./src/python/lab-21-lists-index-slice-append-insert-del-clear-extend.py)
 * [`lab-22-list-for-continue-if-else.py`](./src/python/lab-22-list-for-continue-if-else.py)
 * [`lab-23-split-join-enumerate-tuples-unpackage.py`](./src/python/lab-23-split-join-enumerate-tuples-unpackage.py)
 * [`lab-24-list-of-list-tuples-enumerate.py`](./src/python/lab-24-list-of-list-tuples-enumerate.py)
 * [`lab-25-lists-unpacking.py`](./src/python/lab-25-lists-unpacking.py)
+
+##### others
+
 * [`lab-26-swap-value-between-2-variables.py`](./src/python/lab-26-swap-value-between-2-variables.py)
 * [`lab-27-conditional-expression-ternary-operation.py`](./src/python/lab-27-conditional-expression-ternary-operation.py)
 
 
 #### 3.5.2. Intermediário da linguagem Python
 
+##### [Functions](https://www.w3schools.com/python/python_functions.asp)
+
 * [`lab-101-def-function-create-use-arguments-default-return.py`](./src/python/lab-101-def-function-create-use-arguments-default-return.py)
 * [`lab-102-def-return-no-return-function-return.py`](./src/python/lab-102-def-return-no-return-function-return.py)
 * [`lab-103-def-return-list-tuple.py`](./src/python/lab-103-def-return-list-tuple.py)
 * [`lab-104-def-functions-args-kwargs.py`](./src/python/lab-104-def-functions-args-kwargs.py)
 * [`lab-105-variable-scopes-global-function-local.py`](./src/python/lab-105-variable-scopes-global-function-local.py)
+
+##### [Lambda](https://www.w3schools.com/python/python_lambda.asp)
+
 * [`lab-106-lambda-expression-anonymous-function.py`](./src/python/lab-106-lambda-expression-anonymous-function.py)
+
+#### [Tuples](https://www.w3schools.com/python/python_tuples.asp)
+
 * [`lab-107-tuple-vs-list.py`](./src/python/lab-107-tuple-vs-list.py)
+
+##### [Dictionary](https://www.w3schools.com/python/python_dictionaries.asp)
+
 * [`lab-108-dictionary.py`](./src/python/lab-108-dictionary.py)
+
+##### [Set](https://www.w3schools.com/python/python_sets.asp)
+
 * [`lab-109-set-add-update-clear-discard-union-intersection-difference.py`](./src/python/lab-109-set-add-update-clear-discard-union-intersection-difference.py)
+
+##### [List](https://www.w3schools.com/python/python_lists.asp)
+
 * [`lab-110-list-comprehension.py`](./src/python/lab-110-list-comprehension.py)
+
 * [`lab-111-dictionary-set-comprehension.py`](./src/python/lab-111-dictionary-set-comprehension.py)
 * [`lab-112-iterable-iterator-generator-yield.py`](./src/python/lab-112-iterable-iterator-generator-yield.py)
 * [`lab-113-module-datetime-math-random-sys-time.py`](./src/python/lab-113-module-datetime-math-random-sys-time.py)
@@ -150,11 +203,15 @@ Sugestão de [estratégia de branches e workflow](https://github.com/josemarsilv
 * [`lab-203-solving-mutable-arguments-function.py`](src/python/lab-203-solving-mutable-arguments-function.py)
 
 ##### 3.5.3.2. Python & AI - Artificial Intelligence
+##### 3.5.3.2.1 Dataset
 
-##### 3.5.3.2.1 Dataset manipulation
+##### 3.5.3.2.2 Numpy
 
-##### 3.5.3.2.1 Numpy, multi dimensional arrays and list vs np.array
+##### 3.5.3.2.3 Pandas
 
+##### 3.5.3.2.4 Matplotlib
+
+##### 3.5.3.2.5 Seaborn
 
 #### 3.5.4. Exercício de aproveitamento
 
