@@ -192,9 +192,8 @@ Sugestão de [estratégia de branches e workflow](https://github.com/josemarsilv
 ##### 3.5.3.2. Python & AI - Artificial Intelligence
 
 ##### 3.5.3.2.1 Dataset
-**Dataset** é o conjunto que possibilita o treinamento e validação do modelo de _ML_. 
+**Dataset** é o conjunto que possibilita o treinamento e validação do modelo de _ML_. Na internet há uma infinidade de sites que disponibilizam informações que podem ser processadas como Dataset:
 
-###### Exploring Dataset
 * https://simple.nama.ai/post/uma-lista-com-15-datasets-interessantes-que-vimos-por-ai
 * https://archive.ics.uci.edu/ml/datasets.php
 * https://www.kaggle.com/datasets
@@ -227,7 +226,7 @@ Sugestão de [estratégia de branches e workflow](https://github.com/josemarsilv
     * variables, datatypes(integer, float, string), operations (+, -, *, /), user input, format (integers numbers, float always 3 decimal place), casting, operators (if, then, else, else if), exception manipulation (try, catch), define functions, module import
 
 
-##### 3.5.3.2. Exercício 01: Programa Python para calcular os dois valores de uma equação do 2o grau por Bhaskara
+##### 3.5.3.2. Exercício 02: Programa Python para apresentar as 10 palavras que mais aparecem em um texto
 
 * Requisitos de negócio:
   * Programa que leia o texto de um arquivo e apresente um resumo das top 10 palavras mais utilizadas no texto e as linhas correspondentes onde a palavara apareceu
