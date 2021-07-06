@@ -12,13 +12,6 @@ Este repositório contém os artefatos do laboratório de estudo da linguagem de
 ![MindMapDiagram-Context.png](./doc/mind-maps/MindMapDiagram-Context.png) 
 
 
-### 2.5. Estratégia de Branches (Branch Strategy Workflow)
-
-Sugestão de [estratégia de branches e workflow](https://github.com/josemarsilva/eval-git#38-estrat%C3%A9gia-de-gerenciamento-de-branches) :
-* `master`: pronto para produção
-* `develop`: último desenvolvimento pronto para produção
-
-
 ## 3. Projeto
 
 ### 3.1. Pré-Requisitos, Pré-Condições e Premissas
@@ -40,33 +33,28 @@ Sugestão de [estratégia de branches e workflow](https://github.com/josemarsilv
 
 ### 3.2. Guia do Desenvolvedor e Administrador
 
-* Faça um clone do projeto `git clone`. Use o _branch_ `master` se o _branch_ `develop` não estiver disponível
-* Leia as documentações disponíves em "2. Documentação"  and "3.x. Design Patterns, Standard, Conventions and Best Practices"
+Faça um clone do projeto `git clone`. Use o _branch_ `master` se o _branch_ `develop` não estiver disponível.
 
 
 ### 3.3. Guia de Implantação, Configuração e Instalação
 
 #### a. Download and Install Python for Windows
-
 * https://www.python.org/downloads/
 
 #### b. Download and Install Pycharm Community
-
 * https://www.jetbrains.com/pycharm/download/#section=linux
 
 #### c. Uso gratuito da Jupyter Notebook (Platform as a Service)
-
 * https://jupyter.org/
   * Clique `Try in your Browser`
   * Clique `Try Classic Notebook`
 
 #### d. Uso gratuito do Google Colabs PaaS (Platform as a Service)
-
 * https://colab.research.google.com/
 
 #### e. Uso gratuito do W3School Python Online Interpreter Demo
-
 * https://www.w3schools.com/python/trypython.asp?filename=demo_default
+
 
 ### 3.5. Guia de Estudo
 
@@ -192,23 +180,24 @@ Sugestão de [estratégia de branches e workflow](https://github.com/josemarsilv
 ##### 3.5.3.2. Python & AI - Artificial Intelligence
 
 ##### 3.5.3.2.1 Dataset
-* **Dataset** é o conjunto que possibilita o treinamento e validação do modelo de _ML_. Na internet há incontáveis sites que disponibilizam informações que podem ser processadas como Dataset: [Simple Nama AI](https://simple.nama.ai/post/uma-lista-com-15-datasets-interessantes-que-vimos-por-ai), [University of California](https://archive.ics.uci.edu/ml/datasets.php),  [Kaggle](https://www.kaggle.com/datasets), [IBM](https://developer.ibm.com/technologies/artificial-intelligence/data/) 
+* **Dataset** é o conjunto que possibilita o treinamento e validação do modelo de _ML_. Na internet há incontáveis sites que disponibilizam informações minimamente estruturadas para serem processadas como Dataset de _ML_ e _DL_: [Simple Nama AI](https://simple.nama.ai/post/uma-lista-com-15-datasets-interessantes-que-vimos-por-ai), [University of California](https://archive.ics.uci.edu/ml/datasets.php),  [Kaggle](https://www.kaggle.com/datasets), [IBM](https://developer.ibm.com/technologies/artificial-intelligence/data/) 
 * Os tipos de **variáveis** de um _Dataset_ podem ser: Numéricas ou Categóricas conforme o mapa mental abaixo:
 
 ![MindMapDiagram-Variaveis-Numericas-Categoricas-Continuas-Discretas-Nominal-Ordinal.png](./doc/mind-maps/MindMapDiagram-Variaveis-Numericas-Categoricas-Continuas-Discretas-Nominal-Ordinal.png)
 
-* Os laboratórios com _Dataset_ são:
-  * [`lab_301_dataset_iris_python_basic.ipynb`](https://colab.research.google.com/drive/1imfF6RbyeNCPLHV4UhxPGaEgUvAjFRaa)
-  * [`lab_302_dataset_credit-risk.ipynb`](https://colab.research.google.com/drive/1opP02RA60Mpwxz8JIcSymOpEJee94G9Y#scrollTo=21EuiPl69hi5)
+* As bibliotecas Python utilizadas nestes laboratórios são:
+  * [`plotly`: biblioteca de visualização dinâmica de gráficos](https://plotly.com/python/)
+  * [`pandas`: biblioteca carregamento de arquivos (.csv)](https://pandas.pydata.org/)
+  * [`numpy`: biblioteca multi-dimensional array](https://numpy.org/)
+  * [`seaborn`: biblioteca visualização de gráficos](https://seaborn.pydata.org/)
+  * [`matplotlib.pyplot`: biblioteca visualização de gráficos](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.html)
+  * [`plotly.express`: biblioteca visualização de gráficos dinâmicos](https://plotly.com/python/plotly-express/)
 
+|   Laboratory                                                                                                                           |  Python Library                                                               | Technique / activity                                      |
+| :---                                                                                                                                   |     :---:                                                                     | :---                                                      |
+| [`lab_301_dataset_iris_python_basic.ipynb`](https://colab.research.google.com/drive/1imfF6RbyeNCPLHV4UhxPGaEgUvAjFRaa)                 |       -                                                                       | _Data Exploration_, _Data Visualization_, _Data Cleaning_ |
+| [`lab_302_dataset_credit-risk.ipynb`](https://colab.research.google.com/drive/1opP02RA60Mpwxz8JIcSymOpEJee94G9Y#scrollTo=21EuiPl69hi5) | `plotly`, `pandas`, `numpy`, `seaborn`, `matplotlib.pyplot`, `plotly.express` | _Data Exploration_, _Data Visualization_, _Data Cleaning_ |
 
-##### 3.5.3.2.2 Numpy
-
-##### 3.5.3.2.3 Pandas
-
-##### 3.5.3.2.4 Matplotlib
-
-##### 3.5.3.2.5 Seaborn
 
 #### 3.5.4. Exercício de aproveitamento
 
@@ -263,4 +252,6 @@ Lista das top 10 palavras mais utilizadas e as respectivas linhas onde aparecem:
 * [Youtube - Felipe Deschamps](https://www.youtube.com/playlist?list=PLMdYygf53DP7YZiFUtGTWJJlvynRyrna-)
 * [Python 3 - Documentation](https://docs.python.org/3/library/index.html)
 * [Python Tutorial - W3School (Online)](https://www.w3schools.com/python/default.asp)
+* [Python Tutorial and Exercices - W3resource](https://www.w3resource.com/python/python-tutorial.php)
+* [Python Tutorial and Exercices - Programiz](https://www.programiz.com/python-programming)
 * [Python Tips](https://book.pythontips.com/en/latest)
