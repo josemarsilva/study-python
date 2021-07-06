@@ -185,7 +185,7 @@ Faça um clone do projeto `git clone`. Use o _branch_ `master` se o _branch_ `de
 
 ![MindMapDiagram-Variaveis-Numericas-Categoricas-Continuas-Discretas-Nominal-Ordinal.png](./doc/mind-maps/MindMapDiagram-Variaveis-Numericas-Categoricas-Continuas-Discretas-Nominal-Ordinal.png)
 
-* As bibliotecas Python utilizadas nestes laboratórios são:
+* As **bibliotecas Python** utilizadas nestes laboratórios são:
   * [`plotly`: biblioteca de visualização dinâmica de gráficos](https://plotly.com/python/)
   * [`pandas`: biblioteca carregamento de arquivos (.csv)](https://pandas.pydata.org/)
   * [`numpy`: biblioteca multi-dimensional array](https://numpy.org/)
@@ -193,10 +193,17 @@ Faça um clone do projeto `git clone`. Use o _branch_ `master` se o _branch_ `de
   * [`matplotlib.pyplot`: biblioteca visualização de gráficos](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.html)
   * [`plotly.express`: biblioteca visualização de gráficos dinâmicos](https://plotly.com/python/plotly-express/)
 
-|   Laboratory                                                                                                                           |  Python Library                                                               | Technique / activity                                      |
-| :---                                                                                                                                   |     :---:                                                                     | :---                                                      |
-| [`lab_301_dataset_iris_python_basic.ipynb`](https://colab.research.google.com/drive/1imfF6RbyeNCPLHV4UhxPGaEgUvAjFRaa)                 |       -                                                                       | _Data Exploration_, _Data Visualization_, _Data Cleaning_ |
-| [`lab_302_dataset_credit-risk.ipynb`](https://colab.research.google.com/drive/1opP02RA60Mpwxz8JIcSymOpEJee94G9Y#scrollTo=21EuiPl69hi5) | `plotly`, `pandas`, `numpy`, `seaborn`, `matplotlib.pyplot`, `plotly.express` | _Data Exploration_, _Data Visualization_, _Data Cleaning_ |
+* As **Techniques** e **Activities** utilizadas nos laboratórios são:
+  * _Data Exploration_
+  * _Data Visualization_
+  * _Data Cleaning_
+
+* Os **Laboratórios** são:
+
+|   Laboratory                                                                                                                           |  Python Library                                                               | Techniques / Activities                    |
+| :---                                                                                                                                   |     :---:                                                                     | :---                                       |
+| [`lab_301_dataset_iris_python_basic.ipynb`](https://colab.research.google.com/drive/1imfF6RbyeNCPLHV4UhxPGaEgUvAjFRaa)                 |       -                                                                       | _Exploration_, _Visualization_, _Cleaning_ |
+| [`lab_302_dataset_credit-risk.ipynb`](https://colab.research.google.com/drive/1opP02RA60Mpwxz8JIcSymOpEJee94G9Y#scrollTo=21EuiPl69hi5) | `plotly`, `pandas`, `numpy`, `seaborn`, `matplotlib.pyplot`, `plotly.express` | _Exploration_, _Visualization_, _Cleaning_ |
 
 
 #### 3.5.4. Exercício de aproveitamento
