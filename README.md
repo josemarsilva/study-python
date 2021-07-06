@@ -179,26 +179,31 @@ Faça um clone do projeto `git clone`. Use o _branch_ `master` se o _branch_ `de
 
 ##### 3.5.3.2. Python & AI - Artificial Intelligence
 
-##### 3.5.3.2.1 Dataset
+![MindMapDiagram-Python-Advanced-Machine-Learning-Data-Science.png](./doc/mind-maps/MindMapDiagram-Python-Advanced-Machine-Learning-Data-Science.png)
+
+##### 3.5.3.2.1 Libraries
+* [`plotly`: biblioteca de visualização dinâmica de gráficos](https://plotly.com/python/)
+* [`pandas`: biblioteca carregamento de arquivos (.csv)](https://pandas.pydata.org/)
+* [`numpy`: biblioteca multi-dimensional array](https://numpy.org/)
+* [`seaborn`: biblioteca visualização de gráficos](https://seaborn.pydata.org/)
+* [`matplotlib.pyplot`: biblioteca visualização de gráficos](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.html)
+* [`plotly.express`: biblioteca visualização de gráficos dinâmicos](https://plotly.com/python/plotly-express/)
+
+##### 3.5.3.2.2 Activities
+
+###### Dataset manipulation
 * **Dataset** é o conjunto que possibilita o treinamento e validação do modelo de _ML_. Na internet há incontáveis sites que disponibilizam informações minimamente estruturadas para serem processadas como Dataset de _ML_ e _DL_: [Simple Nama AI](https://simple.nama.ai/post/uma-lista-com-15-datasets-interessantes-que-vimos-por-ai), [University of California](https://archive.ics.uci.edu/ml/datasets.php),  [Kaggle](https://www.kaggle.com/datasets), [IBM](https://developer.ibm.com/technologies/artificial-intelligence/data/) 
 * Os tipos de **variáveis** de um _Dataset_ podem ser: Numéricas ou Categóricas conforme o mapa mental abaixo:
 
 ![MindMapDiagram-Variaveis-Numericas-Categoricas-Continuas-Discretas-Nominal-Ordinal.png](./doc/mind-maps/MindMapDiagram-Variaveis-Numericas-Categoricas-Continuas-Discretas-Nominal-Ordinal.png)
 
-* As **bibliotecas Python** utilizadas nestes laboratórios são:
-  * [`plotly`: biblioteca de visualização dinâmica de gráficos](https://plotly.com/python/)
-  * [`pandas`: biblioteca carregamento de arquivos (.csv)](https://pandas.pydata.org/)
-  * [`numpy`: biblioteca multi-dimensional array](https://numpy.org/)
-  * [`seaborn`: biblioteca visualização de gráficos](https://seaborn.pydata.org/)
-  * [`matplotlib.pyplot`: biblioteca visualização de gráficos](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.html)
-  * [`plotly.express`: biblioteca visualização de gráficos dinâmicos](https://plotly.com/python/plotly-express/)
+##### 3.5.3.2.3 Techniques
+* _Data Exploration_ :
+* _Data Visualization_ :
+* _Data Cleaning_ : 
 
-* As **Techniques** e **Activities** utilizadas nos laboratórios são:
-  * _Data Exploration_
-  * _Data Visualization_
-  * _Data Cleaning_
 
-* Os **Laboratórios** são:
+##### Laboratories
 
 |   Laboratory                                                                                                                           |  Python Library                                                               | Techniques / Activities                    |
 | :---                                                                                                                                   |     :---:                                                                     | :---                                       |
