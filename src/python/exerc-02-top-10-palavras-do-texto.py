@@ -5,11 +5,12 @@
 #
 
 # list of files to be processed
-list_files = ['file-06-trecho-livro-filosofia.txt', 'file-07-trecho-livro-literatura.txt', 'file-08-trecho-livro-biblia-ezequiel-25.txt']
+list_files = [ 'file-06-trecho-livro-filosofia.txt', 'file-07-trecho-livro-literatura.txt', 'file-08-trecho-livro-biblia-ezequiel-25.txt' ]
 enconding_utf8 = "utf8"
 
 list_words_ignore = ['a', 'as', 'o', 'os', 'e', 'de', 'da', 'das', 'do', 'dos', 'um', 'uns', 'uma', 'umas', 'que', 'por', 'porque']
 str_chars_ignore = '0123456789,.;/\\?![]^~{}`"\'!@#$%&*()-_=+' + '—'
+num_top_n_max = 10
 
 # loop files ...
 for filename in list_files:
@@ -55,12 +56,12 @@ for filename in list_files:
 
     # Report
     print(f'* {filename}:')
-    num_top10 = 0
+    num_top_n = 0
     for item in list_unique_words_sorted:
-      if num_top10 < 10 and item[1]['flag_ignore'] == 0:
-        num_top10 += 1
+      if num_top_n < num_top_n_max and item[1]['flag_ignore'] == 0:
+        num_top_n += 1
         word = item[0]
         counter = item[1]['counter']
         line_word =  item[1]['line_word']
-        print(f'  {num_top10}: {word} ({counter}) - {line_word}')
+        print(f'  {num_top_n}: {word} ({counter}) - {line_word}')
 
