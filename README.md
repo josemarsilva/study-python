@@ -42,7 +42,8 @@ Faça um clone do projeto `git clone`. Use o _branch_ `master` se o _branch_ `de
 * https://www.python.org/downloads/
 
 #### b. Download and Install Pycharm Community
-* https://www.jetbrains.com/pycharm/download/#section=linux
+* [Install PyCharm Community](https://www.jetbrains.com/pycharm/download/)
+* [Install, uninstall, and upgrade packages](https://www.jetbrains.com/help/pycharm/installing-uninstalling-and-upgrading-packages.html#packages-tool-window)
 
 #### c. Uso gratuito da Jupyter Notebook (Platform as a Service)
 * https://jupyter.org/
@@ -243,26 +244,40 @@ Faça um clone do projeto `git clone`. Use o _branch_ `master` se o _branch_ `de
   * Programa que leia o texto de um arquivo e apresente um resumo das top 10 palavras mais utilizadas no texto e as linhas correspondentes onde a palavara apareceu
 * Requisitos técnico funcional:
   * Faça um programa Python para identificar e apresentar como saída as top 10 palavras utilizadas no texto
-  * O texto encontra-se nos arquivos anexos `file-06-trecho-livro-filosofia` e `file-07-trecho-livro-literatura`
-  * As palavras compostas unidas por um traço devem ser consideradas em separado: Ex: lírio-do-vale serão 3 palavaras
-  * Algumas palavras devem ser desconsideradas por se tratarem de artigos ou preposições. Lista de palavras a serem desconsideradas: `a(s)`, `o(s)`, `um(s)`, `uma(s)`, `de`, `do` e `da`
-  * As palavras maiúsculas e minúsculas devem ser consideradas como a mesma palavra. Ex: Batata, batata.
+  * O texto encontra-se nos arquivos anexos [ `file-06-trecho-livro-filosofia`, `file-07-trecho-livro-literatura`, `file-08-trecho-livro-biblia-ezequiel-25.txt` ]
+  * As palavras compostas unidas por um traço devem ser consideradas em separado: 
+    * Ex: lírio-do-vale serão 3 palavaras: `lírio`, `do` e `vale`
+  * Algumas palavras devem ser desconsideradas por se tratarem de artigos ou preposições ou comum demais na língua portugesa. Segue a lista:
+
+```python
+list_words_ignore = ['a', 'as', 'o', 'os', 'de', 'da', 'das', 'do', 'dos', 'um', 'uns', 'uma', 'umas', 'que', 'por', 'porque']
+```
+
+  * As palavras maiúsculas e minúsculas devem ser consideradas como a mesma palavra. 
+    * Ex: `Palavra` é igual à batata.
   * As separações silábicas de palavras no final da linha não podem comprometer a palavra. Ex: Se a palavra `batata` precisar ser quebrada de linha então fica: 
     * L-n:     `... plantando bata-`
     * L-(n+1): `ta na horta` 
-  * As palavras são formadas por letras vogais e consoantes, incluindo as acentuações. Os demais caracteres não podem ser confundidos com palavras. Ex: `,`, `.`, `;`, `:`, `?`, `|`, `[`, `]`, `{`, `}`, `/`, `\`, `0123456789`, `'`, `"`, `+`, `-`, `=`, `*`, `!`, `@`, `#`, `$`, `%`, `&`
-  * O resumo apresentado deve conter: o nome do arquivo, a lista das 10 palavras mais utilizadas com a relação das linhas de cada ocorrência
+  * As palavras são formadas por letras vogais e consoantes, incluindo as acentuações que não poderá ser um problema considerando UFT-8. 
+    * Os demais caracteres especiais não podem ser confundidos com palavras. Ex: `,`, `.`, `;`, `:`, `?`, `|`, `[`, `]`, `{`, `}`, `/`, `\`, `0123456789`, `'`, `"`, `+`, `-`, `=`, `*`, `!`, `@`, `#`, `$`, `%`, `&`
+  * O resumo apresentado deve conter: o nome do arquivo, a lista das 10 palavras mais utilizadas com a relação do número da linhas e palavra de cada ocorrência
 
 ```txt
-Arquivo analisado: file-06-trecho-livro-filosofia.txt
-Lista das top 10 palavras mais utilizadas e as respectivas linhas onde aparecem:
-* 10 x palavra: - L-1, L-2, L-2, L3, ..
-* 10 x outra: - L-1, L-2, L3, ..
+* file-06-trecho-livro-filosofia.txt:
+  1: se (29) - ['L3-W5', 'L5-W4', 'L7-W10', ...
+  2: em (24) - ['L4-W9', 'L8-W12', 'L12-W8', ...
+  3: prazer (21) - ['L4-W13', 'L6-W8', 'L9-W6', ...
+      :
+  10: 
+* file-08-trecho-livro-biblia-ezequiel-25.txt:
+  1: senhor (14) - ['L1-W8', 'L3-W11', 'L3-W16', ...
+  2: deus: (8) - ['L3-W12', 'L3-W17', 'L6-W6', ...
+  3: diz (8) - ['L3-W14', 'L6-W3', 'L8-W2', ...
 ```
 
 * Requisitos técnico não funcional:
   * O programa deverá fazer uso dos seguintes recursos de programação em linguagem Python:
-    * string, iterators, list, tuple, dictionary, set, list comprehension,
+    * file (open, readline), string, iterators, list, tuple, dictionary, set, list comprehension, formatting
 
 
 ## I - Referências
