@@ -258,10 +258,10 @@ list_words_ignore = ['a', 'as', 'o', 'os', 'e', 'de', 'da', 'das', 'do', 'dos', 
 ```
 
   * As palavras maiúsculas e minúsculas devem ser consideradas como a mesma palavra. 
-    * Ex: `Palavra` é igual à batata.
+    * Ex: `Palavra` é igual à `palavra`.
   * As separações silábicas de palavras no final da linha não podem comprometer a palavra. Ex: Se a palavra `batata` precisar ser quebrada de linha então fica: 
-    * L-n:     `... plantando bata-`
-    * L-(n+1): `ta na horta` 
+    * L-n:     `... uma visão anticonstitucio-`
+    * L-(n+1): `nalista da questão ...` 
   * As palavras são formadas por letras vogais e consoantes, incluindo as acentuações que não poderá ser um problema considerando UFT-8. 
     * Os demais caracteres especiais não podem ser confundidos com palavras. 
 
