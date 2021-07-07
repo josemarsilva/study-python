@@ -266,10 +266,10 @@ list_words_ignore = ['a', 'as', 'o', 'os', 'e', 'de', 'da', 'das', 'do', 'dos', 
     * Os demais caracteres especiais não podem ser confundidos com palavras. 
 
 ```python
-str_chars_ignore = '0123456789,.;/\\?![]^~{}`"\'!@#$%&*()-_=+'
+str_chars_ignore = '0123456789,.;/\\?![]^~{}`"\'!@#$%&*()-_=+' + '—'
 ```
 
-  * O resumo apresentado deve conter: o nome do arquivo, a lista das 10 palavras mais utilizadas com a relação do número da linhas e palavra de cada ocorrência
+  * O resumo apresentado deve conter: o nome do arquivo, a lista das 10 palavras mais utilizadas, quantidade de ocorrêcias e a relação do número da linhas e palavra de cada ocorrência
 
 ```txt
 * file-06-trecho-livro-filosofia.txt:
@@ -277,11 +277,17 @@ str_chars_ignore = '0123456789,.;/\\?![]^~{}`"\'!@#$%&*()-_=+'
   2: em (24) - ['L4-W9', 'L8-W12', 'L12-W8', ...
   3: prazer (21) - ['L4-W13', 'L6-W8', 'L9-W6', ...
       :
-  10: 
+  10: ...
+* file-07-trecho-livro-literatura.txt:
+  1: é (10) - ['L1-W15', 'L3-W11', 'L4-W17', 'L9-W8', 'L14-W2', 'L14-W19', 'L22-W6', 'L28-W1', 'L39-W8', 'L39-W18']
+  2: não (10) - ['L3-W14', 'L5-W15', 'L9-W10', 'L16-W5', 'L16-W6', 'L21-W15', 'L22-W10', 'L22-W15', 'L24-W6', 'L39-W14']
+      :
+  10: ...
 * file-08-trecho-livro-biblia-ezequiel-25.txt:
   1: senhor (14) - ['L1-W8', 'L3-W11', 'L3-W16', ...
   2: deus: (8) - ['L3-W12', 'L3-W17', 'L6-W6', ...
   3: diz (8) - ['L3-W14', 'L6-W3', 'L8-W2', ...
+  10: ...
 ```
 
 * Requisitos técnico não funcional:

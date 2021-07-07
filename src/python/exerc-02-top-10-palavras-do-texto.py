@@ -9,7 +9,7 @@ list_files = ['file-06-trecho-livro-filosofia.txt', 'file-07-trecho-livro-litera
 enconding_utf8 = "utf8"
 
 list_words_ignore = ['a', 'as', 'o', 'os', 'e', 'de', 'da', 'das', 'do', 'dos', 'um', 'uns', 'uma', 'umas', 'que', 'por', 'porque']
-str_chars_ignore = '0123456789,.;/\\?![]^~{}`"\'!@#$%&*()-_=+'
+str_chars_ignore = '0123456789,.;/\\?![]^~{}`"\'!@#$%&*()-_=+' + '—'
 
 # loop files ...
 for filename in list_files:
