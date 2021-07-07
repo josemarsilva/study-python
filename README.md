@@ -182,33 +182,40 @@ Faça um clone do projeto `git clone`. Use o _branch_ `master` se o _branch_ `de
 ![MindMapDiagram-Python-Advanced-Machine-Learning-Data-Science.png](./doc/mind-maps/MindMapDiagram-Python-Advanced-Machine-Learning-Data-Science.png)
 
 ##### 3.5.3.2.1 Libraries
-* [`plotly`: biblioteca de visualização dinâmica de gráficos](https://plotly.com/python/)
-* [`pandas`: biblioteca carregamento de arquivos (.csv)](https://pandas.pydata.org/)
 * [`numpy`: biblioteca multi-dimensional array](https://numpy.org/)
+* [`pandas`: biblioteca carregamento de arquivos (.csv)](https://pandas.pydata.org/)
+* [`plotly`: biblioteca de visualização dinâmica de gráficos](https://plotly.com/python/)
 * [`seaborn`: biblioteca visualização de gráficos](https://seaborn.pydata.org/)
 * [`matplotlib.pyplot`: biblioteca visualização de gráficos](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.html)
 * [`plotly.express`: biblioteca visualização de gráficos dinâmicos](https://plotly.com/python/plotly-express/)
 
 ##### 3.5.3.2.2 Activities
 
-###### Dataset manipulation
+###### Dataset load
+
 * **Dataset** é o conjunto que possibilita o treinamento e validação do modelo de _ML_. Na internet há incontáveis sites que disponibilizam informações minimamente estruturadas para serem processadas como Dataset de _ML_ e _DL_: [Simple Nama AI](https://simple.nama.ai/post/uma-lista-com-15-datasets-interessantes-que-vimos-por-ai), [University of California](https://archive.ics.uci.edu/ml/datasets.php),  [Kaggle](https://www.kaggle.com/datasets), [IBM](https://developer.ibm.com/technologies/artificial-intelligence/data/) 
-* Os tipos de **variáveis** de um _Dataset_ podem ser: Numéricas ou Categóricas conforme o mapa mental abaixo:
+* Os **tipos de variáveis** de um _Dataset_ podem ser: Numéricas ou Categóricas conforme o mapa mental abaixo:
 
 ![MindMapDiagram-Variaveis-Numericas-Categoricas-Continuas-Discretas-Nominal-Ordinal.png](./doc/mind-maps/MindMapDiagram-Variaveis-Numericas-Categoricas-Continuas-Discretas-Nominal-Ordinal.png)
 
-##### 3.5.3.2.3 Techniques
-* _Data Exploration_ :
-* _Data Visualization_ :
-* _Data Cleaning_ : 
+###### Data Exploration
 
+* **Explorar** o _Dataset_ consiste em conhecer a estrutura dos dados, ie quantas linhas tem? quantas colunas de informações? qual o datatype bruto de cada uma das informações? qual a distribuição dos dados?
+
+###### Dataset Visualization
+
+* **Visualizar** o _Dataset_ consiste em conhecer de forma gráfica cognitiva as dados, entender melhor sua distribuição, etc
+
+###### Dataset Cleaning 
+
+* **Limpar** o _Dataset_ consiste em ajustar os dados brutos inconsistentes. Ex: idade > 122 anos, espaços, valores faltantes, etc
 
 ##### Laboratories
 
 |   Laboratory                                                                                                                           |  Python Library                                                               | Techniques / Activities                    |
 | :---                                                                                                                                   |     :---:                                                                     | :---                                       |
-| [`lab_301_dataset_iris_python_basic.ipynb`](https://colab.research.google.com/drive/1imfF6RbyeNCPLHV4UhxPGaEgUvAjFRaa)                 |       -                                                                       | _Exploration_, _Visualization_, _Cleaning_ |
-| [`lab_302_dataset_credit-risk.ipynb`](https://colab.research.google.com/drive/1opP02RA60Mpwxz8JIcSymOpEJee94G9Y#scrollTo=21EuiPl69hi5) | `plotly`, `pandas`, `numpy`, `seaborn`, `matplotlib.pyplot`, `plotly.express` | _Exploration_, _Visualization_, _Cleaning_ |
+| [`lab-301-dataset-iris-python-basic.ipynb`](https://colab.research.google.com/drive/1imfF6RbyeNCPLHV4UhxPGaEgUvAjFRaa)                 |       -                                                                       | _Exploration_, _Visualization_, _Cleaning_ |
+| [`lab-302-dataset-credit-risk.ipynb`](https://colab.research.google.com/drive/1opP02RA60Mpwxz8JIcSymOpEJee94G9Y#scrollTo=21EuiPl69hi5) | `plotly`, `pandas`, `numpy`, `seaborn`, `matplotlib.pyplot`, `plotly.express` | _Exploration_, _Visualization_, _Cleaning_ |
 
 
 #### 3.5.4. Exercício de aproveitamento
