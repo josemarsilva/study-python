@@ -250,7 +250,7 @@ Faça um clone do projeto `git clone`. Use o _branch_ `master` se o _branch_ `de
   * Algumas palavras devem ser desconsideradas por se tratarem de artigos ou preposições ou comum demais na língua portugesa. Segue a lista:
 
 ```python
-list_words_ignore = ['a', 'as', 'o', 'os', 'de', 'da', 'das', 'do', 'dos', 'um', 'uns', 'uma', 'umas', 'que', 'por', 'porque']
+list_words_ignore = ['a', 'as', 'o', 'os', 'e', 'de', 'da', 'das', 'do', 'dos', 'um', 'uns', 'uma', 'umas', 'que', 'por', 'porque']
 ```
 
   * As palavras maiúsculas e minúsculas devem ser consideradas como a mesma palavra. 
