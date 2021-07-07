@@ -244,7 +244,11 @@ Faça um clone do projeto `git clone`. Use o _branch_ `master` se o _branch_ `de
   * Programa que leia o texto de um arquivo e apresente um resumo das top 10 palavras mais utilizadas no texto e as linhas correspondentes onde a palavara apareceu
 * Requisitos técnico funcional:
   * Faça um programa Python para identificar e apresentar como saída as top 10 palavras utilizadas no texto
-  * O texto encontra-se nos arquivos anexos [ `file-06-trecho-livro-filosofia`, `file-07-trecho-livro-literatura`, `file-08-trecho-livro-biblia-ezequiel-25.txt` ]
+
+```python
+list_files = ['file-06-trecho-livro-filosofia.txt', 'file-07-trecho-livro-literatura.txt', 'file-08-trecho-livro-biblia-ezequiel-25.txt']
+```
+
   * As palavras compostas unidas por um traço devem ser consideradas em separado: 
     * Ex: lírio-do-vale serão 3 palavaras: `lírio`, `do` e `vale`
   * Algumas palavras devem ser desconsideradas por se tratarem de artigos ou preposições ou comum demais na língua portugesa. Segue a lista:
