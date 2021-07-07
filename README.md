@@ -259,7 +259,12 @@ list_words_ignore = ['a', 'as', 'o', 'os', 'e', 'de', 'da', 'das', 'do', 'dos', 
     * L-n:     `... plantando bata-`
     * L-(n+1): `ta na horta` 
   * As palavras são formadas por letras vogais e consoantes, incluindo as acentuações que não poderá ser um problema considerando UFT-8. 
-    * Os demais caracteres especiais não podem ser confundidos com palavras. Ex: `,`, `.`, `;`, `:`, `?`, `|`, `[`, `]`, `{`, `}`, `/`, `\`, `0123456789`, `'`, `"`, `+`, `-`, `=`, `*`, `!`, `@`, `#`, `$`, `%`, `&`
+    * Os demais caracteres especiais não podem ser confundidos com palavras. 
+
+```python
+str_chars_ignore = '0123456789,.;/\\?![]^~{}`"\'!@#$%&*()-_=+'
+```
+
   * O resumo apresentado deve conter: o nome do arquivo, a lista das 10 palavras mais utilizadas com a relação do número da linhas e palavra de cada ocorrência
 
 ```txt
