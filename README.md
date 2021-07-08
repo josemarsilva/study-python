@@ -189,8 +189,9 @@ Faça um clone do projeto `git clone`. Use o _branch_ `master` se o _branch_ `de
 * [`seaborn`: biblioteca visualização de gráficos](https://seaborn.pydata.org/)
 * [`matplotlib.pyplot`: biblioteca visualização de gráficos](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.html)
 * [`plotly.express`: biblioteca visualização de gráficos dinâmicos](https://plotly.com/python/plotly-express/)
+* [`sklearn`: bibliteca pré-processamento de dados](http://scikit-learn.org/)
 
-##### 3.5.3.2.2 Activities
+##### 3.5.3.2.2 Preprocessing
 
 ###### Dataset load
 
