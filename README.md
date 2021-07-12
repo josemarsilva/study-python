@@ -194,30 +194,44 @@ Faça um clone do projeto `git clone`. Use o _branch_ `master` se o _branch_ `de
 ##### 3.5.3.2.2 Preprocessing
 
 ###### Dataset load
-
 * **Dataset** é o conjunto que possibilita o treinamento e validação do modelo de _ML_. Na internet há incontáveis sites que disponibilizam informações minimamente estruturadas para serem processadas como Dataset de _ML_ e _DL_: [Simple Nama AI](https://simple.nama.ai/post/uma-lista-com-15-datasets-interessantes-que-vimos-por-ai), [University of California](https://archive.ics.uci.edu/ml/datasets.php),  [Kaggle](https://www.kaggle.com/datasets), [IBM](https://developer.ibm.com/technologies/artificial-intelligence/data/) 
 * Os **tipos de variáveis** de um _Dataset_ podem ser: Numéricas ou Categóricas conforme o mapa mental abaixo:
 
 ![MindMapDiagram-Variaveis-Numericas-Categoricas-Continuas-Discretas-Nominal-Ordinal.png](./doc/mind-maps/MindMapDiagram-Variaveis-Numericas-Categoricas-Continuas-Discretas-Nominal-Ordinal.png)
 
 ###### Data Exploration
-
 * **Explorar** o _Dataset_ consiste em conhecer a estrutura dos dados, ie quantas linhas tem? quantas colunas de informações? qual o datatype bruto de cada uma das informações? qual a distribuição dos dados?
 
 ###### Dataset Visualization
-
 * **Visualizar** o _Dataset_ consiste em conhecer de forma gráfica cognitiva as dados, entender melhor sua distribuição, etc
 
-###### Dataset Cleaning 
-
+###### Dataset Cleaning
 * **Limpar** o _Dataset_ consiste em ajustar os dados brutos inconsistentes. Ex: idade > 122 anos, espaços, valores faltantes, etc
+
+###### Predictive Analysis
+* Identificar os **atributos preditivos**
+* Definir os atributos alvos e suas **classes de rótulos**
+
+###### Values Scalling
+* **Padronização** e **Normalização** dos atributos
+
+###### Values Transformation
+* **Transformar** os atributos com _Label Encoders_ e _One Hot Encoder_
+
+##### 3.5.3.2.3 Split Dataset into Train, Validation and Test
+* **Dividir** os dados do _Dataset_ nos conjuntos de treino (train), opcionalmente validação (validation) e teste(test) 
+
+##### 3.5.3.2.4 Save Model
+* **Salvar o modelo** já processado para não precisar reprocessá-lo novamente
+
 
 ##### Laboratories
 
-|   Laboratory                                                                                                                           |  Python Library                                                               | Techniques / Activities                    |
-| :---                                                                                                                                   |     :---:                                                                     | :---                                       |
-| [`lab-301-dataset-iris-python-basic.ipynb`](https://colab.research.google.com/drive/1imfF6RbyeNCPLHV4UhxPGaEgUvAjFRaa)                 |       -                                                                       | _Exploration_, _Visualization_, _Cleaning_ |
-| [`lab-302-dataset-credit-risk.ipynb`](https://colab.research.google.com/drive/1opP02RA60Mpwxz8JIcSymOpEJee94G9Y#scrollTo=21EuiPl69hi5) | `plotly`, `pandas`, `numpy`, `seaborn`, `matplotlib.pyplot`, `plotly.express` | _Exploration_, _Visualization_, _Cleaning_ |
+|   Laboratory                                                                                                                                                                                                                                              |  Python Library                                                                      | Preprocessing Techniques / Activities |
+| :---                                                                                                                                                                                                                                                      |     :---:                                                                            | :---                                  |
+| [`lab-301-dataset-iris-python-basic.ipynb`](https://colab.research.google.com/drive/1imfF6RbyeNCPLHV4UhxPGaEgUvAjFRaa)                                                                                                                                    |       -                                                                              | _Exploration_, _Visualization_, _Cleaning_ |
+| [`lab-302-credit-risk-DataExploration-DatasetVisualization-DataCleaning-PredictiveAnalysis-ValuesScalling-pandas-numpy-seaborn-matplotlib-plotly.ipynb`](https://colab.research.google.com/drive/1opP02RA60Mpwxz8JIcSymOpEJee94G9Y)                       | `plotly`, `pandas`, `numpy`, `seaborn`, `matplotlib.pyplot`, `plotly.express`        | _Exploration_, _Visualization_, _Cleaning_ _Predictive Analysis_ _Values Scalling_ |
+| [`lab-303-census-adult-DataExploration-DatasetVisualization-DataCleaning-PredictiveAnalysis-ValuesTransformation-ValuesScalling-pandas-numpy-seaborn-matplotlib-plotly.ipynb`](https://colab.research.google.com/drive/1mhV-QSskVHb38GL6jDV-_aWRBuRQPHay) | `plotly`, `pandas`, `numpy`, `seaborn`, `matplotlib.pyplot`, `plotly.express` | _Exploration_, _Visualization_, _Cleaning_ _Predictive Analysis_ _Values Transformation_ |
 
 
 #### 3.5.4. Exercício de aproveitamento

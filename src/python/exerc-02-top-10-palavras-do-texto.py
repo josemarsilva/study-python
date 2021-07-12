@@ -64,4 +64,3 @@ for filename in list_files:
         counter = item[1]['counter']
         line_word =  item[1]['line_word']
         print(f'  {num_top_n}: {word} ({counter}) - {line_word}')
-
