@@ -310,6 +310,19 @@ str_chars_ignore = '0123456789,.;/\\?![]^~{}`"\'!@#$%&*()-_=+' + '—'
     * file (open, readline), string, iterators, list, tuple, dictionary, set, list comprehension, formatting
 
 
+##### 3.5.3.3. Exercício 03.xx.xx: Lista de exercícios [Python Org Br](https://wiki.python.org.br/ListaDeExercicios)
+
+1. [Estrutura Sequencial](https://wiki.python.org.br/EstruturaSequencial)
+2. [Estrutura De Decisão](https://wiki.python.org.br/EstruturaDeDecisao)
+3. [Estrutura De Repetiçao](https://wiki.python.org.br/EstruturaDeRepeticao)
+4. [Exercicios Listas](https://wiki.python.org.br/ExerciciosListas)
+5. [Exercicios Funções](https://wiki.python.org.br/ExerciciosFuncoes)
+6. [Exercicios Com Strings](https://wiki.python.org.br/ExerciciosComStrings)
+7. [Exercicios Arquivos](https://wiki.python.org.br/ExerciciosArquivos)
+8. [Exercicios Classes](https://wiki.python.org.br/ExerciciosClasses)
+9. [Lista De Exercicios Projetos](https://wiki.python.org.br/ListaDeExerciciosProjetos)
+
+
 ## I - Referências
 
 * [Udemmy - Python 3](https://www.udemy.com/course/python-3-do-zero-ao-avancado)
@@ -319,3 +332,8 @@ str_chars_ignore = '0123456789,.;/\\?![]^~{}`"\'!@#$%&*()-_=+' + '—'
 * [Python Tutorial and Exercices - W3resource](https://www.w3resource.com/python/python-tutorial.php)
 * [Python Tutorial and Exercices - Programiz](https://www.programiz.com/python-programming)
 * [Python Tips](https://book.pythontips.com/en/latest)
+* Livros:
+  * [Python Machine Learning de Sebastian Raschka]()
+  * [Machine Learning with Python de Chris Albon]()
+  * [Capítulo Data Quality de Tamraparni Dasu e Theodore Johnson da série de livros Wiley Series in Probability and Statistics]()
+  
