@@ -165,7 +165,8 @@ Faça um clone do projeto `git clone`. Use o _branch_ `master` se o _branch_ `de
 * [`lab-124-file-open-write-read-seek-with-close.py`](./src/python/lab-124-file-open-write-read-seek-with-close.py)
 * [`lab-125-json-write-to-read-from-file.py`](./src/python/lab-125-json-write-to-read-from-file.py)
 * [`lab-126-file-read-write-csv-tsv-comma-positional-utf7-utf8-unicode.py`](./src/python/lab-126-file-read-write-csv-tsv-comma-positional-utf7-utf8-unicode.py)
-* [`lab-127-requests-beautifullsoap4-webscrapping.py`](./src/python/lab-127-requests-beautifullsoap4-webscrapping.py)
+* [`lab-127-requests-beautifulsoup4-webscrapping.py`](./src/python/lab-127-requests-beautifulsoup4-webscrapping.py)
+* [`lab-128-selenium-web-browser.py`](./src/python/lab-128-selenium-web-browser.py)
 
 #### 3.5.3. Avançado da linguagem Python
 
