@@ -167,6 +167,9 @@ Faça um clone do projeto `git clone`. Use o _branch_ `master` se o _branch_ `de
 * [`lab-126-file-read-write-csv-tsv-comma-positional-utf7-utf8-unicode.py`](./src/python/lab-126-file-read-write-csv-tsv-comma-positional-utf7-utf8-unicode.py)
 * [`lab-127-requests-beautifulsoup4-webscrapping.py`](./src/python/lab-127-requests-beautifulsoup4-webscrapping.py)
 * [`lab-128-selenium-web-browser.py`](./src/python/lab-128-selenium-web-browser.py)
+* [`lab-129-openpyxl.py`](./src/python/lab-129-openpyxl.py)
+* [`lab-130-pypdf2.py`](./src/python/lab-130-pypdf2.py)
+
 
 #### 3.5.3. Avançado da linguagem Python
 
