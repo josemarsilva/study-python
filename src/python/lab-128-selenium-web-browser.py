@@ -1,18 +1,18 @@
 #
-# filename   : lab-127-requests-beautifullsoap4-webscrapping.py
-# Description:
-# Docs       :
+# filename    : lab-127-requests-beautifullsoap4-webscrapping.py
+# Description :
+# Docs        :
 #               * https://pypi.org/project/selenium/
 #               * https://sites.google.com/a/chromium.org/chromedriver/downloads
 #               * https://chromedriver.storage.googleapis.com/index.html?path=91.0.4472.101/
-# Required   :
+# Requirements:
 #               * pip install selenium
 #               * Chrome installed 91.0.4472.124 (Versão oficial) 64 bits
 #               * Chrome Driver - WebDriver for Chrome
 #               * wget https://chromedriver.storage.googleapis.com/91.0.4472.101/chromedriver_win32.zip
 #               * sudo apt install unzip
 #               # unzip chromedriver_win32.zip
-#               # mv ./chromedriver_win32 ./study-python/src/python/
+#               # mv ./chromedriver.exe ./study-python/src/python/
 #
 
 from selenium import webdriver
