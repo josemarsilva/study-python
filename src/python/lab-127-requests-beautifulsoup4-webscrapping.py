@@ -1,7 +1,8 @@
 #
-# filename   : lab-127-requests-beautifullsoap4-webscrapping.py
-# Description:
-# Docs       :
+# filename    : lab-127-requests-beautifullsoap4-webscrapping.py
+# Description :
+# Docs        :
+# Requirements:
 #
 
 import requests

@@ -1,7 +1,7 @@
 #
-# filename   : lab-202-decorators.py
-# Description: Decorators
-# Docs       :  * https://docs.python.org/3.9/reference/index.html
+# filename    : lab-202-decorators.py
+# Description : Decorators
+# Docs        :  * https://docs.python.org/3.9/reference/index.html
 #
 
 print('\n#1. Decorators - functions\n')

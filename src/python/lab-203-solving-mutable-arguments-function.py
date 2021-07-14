@@ -1,7 +1,7 @@
 #
-# filename   :
-# Description: Solving mutable arguments function
-# Docs       :  * https://docs.python.org/3.9/reference/index.html
+# filename    :
+# Description : Solving mutable arguments function
+# Docs        :  * https://docs.python.org/3.9/reference/index.html
 #
 
 print(f'\n#1. Solving mutable arguments function - Problem\n')

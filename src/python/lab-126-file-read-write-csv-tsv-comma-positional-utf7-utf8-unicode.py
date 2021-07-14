@@ -1,7 +1,8 @@
 #
-# filename   : lab-126-file-read-write-csv-tsv-comma-positional-utf7-utf8-unicode.py
-# Description: File Open
-# Docs       :  * https://docs.python.org/3/library/functions.html#open
+# filename    : lab-126-file-read-write-csv-tsv-comma-positional-utf7-utf8-unicode.py
+# Description : File Open
+# Docs        :  * https://docs.python.org/3/library/functions.html#open
+# Requirements:
 #
 import json
 

@@ -1,7 +1,8 @@
 #
-# filename   : lab-123-package-usercustom.py
-# Description: Package, create, import and use
-# Docs       :  *
+# filename    : lab-123-package-usercustom.py
+# Description : Package, create, import and use
+# Docs        :
+# Requirements:
 #
 
 print('\n#1. Python Package - Create Package\n')

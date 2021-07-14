@@ -1,7 +1,7 @@
 #
-# filename   : lab-201-package-module-relative-reference-sys-path.py
-# Description: Packages, modules, relative references, sys.path
-# Docs       :  * https://docs.python.org/3.9/reference/index.html
+# filename    : lab-201-package-module-relative-reference-sys-path.py
+# Description : Packages, modules, relative references, sys.path
+# Docs        :  * https://docs.python.org/3.9/reference/index.html
 #
 
 print('\n#1. Packages and modules: relative references\n')
