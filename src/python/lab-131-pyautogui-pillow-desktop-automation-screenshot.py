@@ -91,7 +91,7 @@ if __name__ == '__main__':
     pyautogui.moveTo(1, 1)
     sleep(1)
     location = pyautogui.locateOnScreen(IMG_ICON_EXECUTE_QUERY)
-    print('Execute query - location:', location)
+    print('execute query - location:', location)
     if location is not None:
         pyautogui.moveTo(location.left + location.width / 2, location.top + location.height / 2)
         pyautogui.click()
@@ -108,7 +108,7 @@ if __name__ == '__main__':
         pyautogui.click()
         sleep(1)
         location = pyautogui.locateOnScreen(IMG_MENU_FILE_EXIT)
-        print('Menu File - location:', location)
+        print('Menu File Exit - location:', location)
         if location is not None:
             pyautogui.moveTo(location.left + location.width / 2, location.top + location.height / 2)
         pyautogui.click()

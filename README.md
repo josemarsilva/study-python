@@ -169,6 +169,7 @@ Faça um clone do projeto `git clone`. Use o _branch_ `master` se o _branch_ `de
 * [`lab-128-selenium-web-browser.py`](./src/python/lab-128-selenium-web-browser.py)
 * [`lab-129-openpyxl.py`](./src/python/lab-129-openpyxl.py)
 * [`lab-130-pypdf2.py`](./src/python/lab-130-pypdf2.py)
+* [`lab-131-pyautogui-pillow-desktop-automation-screenshot.py`](./src/python/lab-131-pyautogui-pillow-desktop-automation-screenshot.py)
 
 
 #### 3.5.3. Avançado da linguagem Python
