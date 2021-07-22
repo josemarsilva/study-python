@@ -170,7 +170,8 @@ Faça um clone do projeto `git clone`. Use o _branch_ `master` se o _branch_ `de
 * [`lab-129-openpyxl.py`](./src/python/lab-129-openpyxl.py)
 * [`lab-130-pypdf2.py`](./src/python/lab-130-pypdf2.py)
 * [`lab-131-pyautogui-pillow-desktop-automation-screenshot.py`](./src/python/lab-131-pyautogui-pillow-desktop-automation-screenshot.py)
-
+* [`lab-132-sqlite3.py`](./src/python/lab-132-sqlite3.py)
+* [`lab-133-pyodb-sqlserver.py`](./src/python/lab-133-pyodb-sqlserver.py)
 
 #### 3.5.3. Avançado da linguagem Python
 
