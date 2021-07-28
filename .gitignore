@@ -134,3 +134,4 @@ dmypy.json
 # Custom
 .tmp
 chromedriver.exe
+screenshot*.png
