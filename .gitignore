@@ -131,6 +131,7 @@ dmypy.json
 # PyCharm IDE
 .idea
 
-# Custom
+# Github Project User Custom
 .tmp
 chromedriver.exe
+secrets.tmp
