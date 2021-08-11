@@ -38,9 +38,9 @@ result_4 = cv2.matchTemplate(image_full, image_full, method)
 # print result
 print('\n\n2. Matching results - method: cv2.TM_CCOEFF_NORMED\n')
 print('* image_partial_1_is_subimage     match image_full - result_1.shape(y,x): ', np.unravel_index(result_1.argmax(),result_1.shape))
-print('* image_partial_2_is_subimage     match image_full - result_2.shape(y,x): ', np.unravel_index(result_2.argmax(),result_1.shape))
-print('* image_partial_3_is_not_subimage match image_full - result_3.shape(y,x): ', np.unravel_index(result_3.argmax(),result_1.shape))
-print('* image_full                      match image_full - result_4.shape(y,x): ', np.unravel_index(result_4.argmax(),result_1.shape))
+print('* image_partial_2_is_subimage     match image_full - result_2.shape(y,x): ', np.unravel_index(result_2.argmax(),result_2.shape))
+print('* image_partial_3_is_not_subimage match image_full - result_3.shape(y,x): ', np.unravel_index(result_3.argmax(),result_3.shape))
+print('* image_full                      match image_full - result_4.shape(y,x): ', np.unravel_index(result_4.argmax(),result_4.shape))
 print('\nPS: Observe that results are zeroes in both situations: \n    a) partial is not subimage ; \n    b) partial and full are same images')
 
 # print table results
