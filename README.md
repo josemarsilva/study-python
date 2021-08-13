@@ -26,6 +26,7 @@ Este repositório contém os artefatos do laboratório de estudo da linguagem de
 
 * Ferramenta: [Draw.IO](https://app.diagrams.net/) (_apoio_: necessário para editar os diagramas UML)
 * Pycharm community (_produtividade_: IDE facilita programação)
+* [VSCode](https://code.visualstudio.com/docs/languages/python) (_produtividade_: IDE facilita programação)
 * venv - administrador de múltiplos ambientes Python para evitar bagunçar as bibliotecas
 * [Jupyter Notebook - ambiente de programação e documentação Python na nuvem](https://jupyter.org/try)
 * [Colab Research Google - ambiente de programação Python na nuvem](https://colab.research.google.com/)
