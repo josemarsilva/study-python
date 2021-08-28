@@ -1,0 +1,32 @@
+{
+    "mysql":{
+        "host": "localhost",
+        "user": "root",
+        "password": "password123",
+        "dbname":{
+            "tables":[
+                {
+                    "tablename": "mytable",
+                    "columns":{
+                        "id_column": "id",
+                        "name_column": "name"
+                    }
+                },
+                {
+                    "tablename": "mytable1",
+                    "columns":{
+                        "id_column": "id",
+                        "name_column": "name"
+                    }
+                },
+                {
+                    "tablename": "mytable2",
+                    "columns":{
+                        "id_column": "id",
+                        "name_column": "name"
+                    }
+                }
+            ]
+        }
+    }
+}

@@ -172,11 +172,12 @@ Faça um clone do projeto `git clone`. Use o _branch_ `master` se o _branch_ `de
 * [`lab-130-pypdf2.py`](./src/python/lab-130-pypdf2.py)
 * [`lab-131-pyautogui-pillow-desktop-automation-screenshot.py`](./src/python/lab-131-pyautogui-pillow-desktop-automation-screenshot.py)
 * [`lab-132-sqlite3.py`](./src/python/lab-132-sqlite3.py)
-* [`lab-133-pyodb-sqlserver.py`](./src/python/lab-133-pyodb-sqlserver.py)
+* [`lab-133-pyodb-mssql.py`](./src/python/lab-133-pyodb-mssql.py)
 * [`lab-134-string-template.py`](./src/python/lab-134-string-template.py)
 * [`lab-136-argparse-os-shutil-del-folder.py`](./src/python/lab-136-argparse-os-shutil-del-folder.py)
 * [`lab-137-opencv-cv2-nympy-imagematch-imagecrop-imread-imwrite-imshow.py`](./src/python/lab-137-opencv-cv2-nympy-imagematch-imagecrop-imread-imwrite-imshow.py)
 * [`lab-138-tesseract-ocr.py`](./src/python/lab-138-tesseract-ocr.py)
+* [`lab-139-config-json-yaml-ini-xml-files.py`](./src/python/lab-139-config-json-yaml-ini-xml-files.py)
 
 
 #### 3.5.3. Avançado da linguagem Python
