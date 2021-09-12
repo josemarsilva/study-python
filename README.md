@@ -178,7 +178,7 @@ Faça um clone do projeto `git clone`. Use o _branch_ `master` se o _branch_ `de
 * [`lab-137-opencv-cv2-nympy-imagematch-imagecrop-imread-imwrite-imshow.py`](./src/python/lab-137-opencv-cv2-nympy-imagematch-imagecrop-imread-imwrite-imshow.py)
 * [`lab-138-tesseract-ocr.py`](./src/python/lab-138-tesseract-ocr.py)
 * [`lab-139-config-json-yaml-ini-xml-files.py`](./src/python/lab-139-config-json-yaml-ini-xml-files.py)
-
+* [`lab-140-qrcode.py`](./src/python/lab-140-qrcode.py)
 
 #### 3.5.3. Avançado da linguagem Python
 
