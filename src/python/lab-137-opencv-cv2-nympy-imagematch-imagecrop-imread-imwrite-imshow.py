@@ -4,6 +4,8 @@
 # Docs        :
 #               * https://stackoverflow.com/questions/17566752/how-to-find-subimage-using-the-pil-library
 #               * https://stackoverflow.com/questions/15589517/how-to-crop-an-image-in-opencv-using-python
+#				* https://docs.opencv.org/3.4/de/da9/tutorial_template_matching.html
+#				* https://stackoverflow.com/questions/29663764/determine-if-an-image-exists-within-a-larger-image-and-if-so-find-it-using-py
 # Requirements:
 #				* pip install matplotlib
 #				* pip install numpy
