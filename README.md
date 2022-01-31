@@ -180,6 +180,10 @@ Faça um clone do projeto `git clone`. Use o _branch_ `master` se o _branch_ `de
 * [`lab-139-config-json-yaml-ini-xml-files.py`](./src/python/lab-139-config-json-yaml-ini-xml-files.py)
 * [`lab-140-qrcode.py`](./src/python/lab-140-qrcode.py)
 * [`lab-141-jwt-encode-decode.py`](./src/python/lab-141-jwt-encode-decode.py)
+* [`lab-142-pycryptodome-cryptographic-primitives.py`](./src/python/lab-142-pycryptodome-cryptographic-primitives.py)
+* [`lab-143-base64-encoding.py`](./src/python/lab-143-base64-encoding.py)
+
+
 
 #### 3.5.3. Avançado da linguagem Python
 
