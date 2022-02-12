@@ -11,13 +11,13 @@
 import base64
 
 # encode
-message = "Python is fun"
-message_bytes = message.encode('ascii')
-base64_bytes = base64.b64encode(message_bytes)
-base64_message = base64_bytes.decode('ascii')
+message = "Python is fun"                               #  'Python is fun'
+message_bytes = message.encode('ascii')                 # b'Python is fun'
+base64_bytes = base64.b64encode(message_bytes)          # b'UHl0aG9uIGlzIGZ1bg=='
+base64_message = base64_bytes.decode('ascii')           #  'UHl0aG9uIGlzIGZ1bg=='
 #decode
-message_bytes = base64.b64decode(base64_bytes)
-message_base64_decoded = message_bytes.decode('ascii')
+message_bytes = base64.b64decode(base64_bytes)          # b'Python is fun'
+message_base64_decoded = message_bytes.decode('ascii')  #  'Python is fun'
 
 print(f'Python Base64 Encoding:')
 print(f'  - message(original)      : {message}')
